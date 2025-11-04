@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+* {
+    font-family: 'Archivo', sans-serif;
+}
+html, body {
+    scroll-behavior: smooth;
+    color: #1E1E1E;
+} 
+
+.container {
+    @apply w-full max-w-[1440px] mx-auto h-full;
+}
+
+.single-content {
+    
+}
+.single-content h1 {
+    @apply text-3xl font-semibold;
+}
+.single-content h2 {
+    @apply text-2xl font-semibold;
+}
+.single-content h3 {
+    @apply text-xl font-semibold;
+}
+.single-content p {
+    @apply font-normal leading-[1.5];
+}
+.single-content table {
+    @apply mb-6 mt-2 w-full;
+}
+.single-content td, .single-content th {
+    @apply border p-2 px-3 leading-none;
+}
+.single-content ol {
+    @apply list-decimal pl-6;
+}
+.single-content ul {
+    @apply list-disc pl-6;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "starlite",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "tailwindcss": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "bunx tailwindcss -i ./css/input.css -o ./css/index.css --watch"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module"
+}

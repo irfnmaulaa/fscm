@@ -1,0 +1,63 @@
+<?php if(!isset($_POST['is_ajax'])): ?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><?php echo get_page_title(); ?></title>
+
+    <meta name="description" content="<?= get_bloginfo('description') ?>">
+    <meta name="keywords" content="starlite,id">
+    <meta name="author" content="Ahmad Irfan Maulana">
+
+    <link rel="icon" type="image/x-icon" href="<?= get_site_icon_url() ?>">
+
+    <?php $meta_defaults = get_meta_defaults(); ?>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:url" content="<?= get_the_permalink() ?>">
+    <meta property="og:type" content="website">
+    <?php if(get_field('meta_tags')): foreach(get_field('meta_tags') as $meta_property => $meta_content): ?>
+    <?php $value = $meta_content ? $meta_content : $meta_defaults[$meta_property]; ?>
+    <meta property="og:<?php echo $meta_property; ?>" content="<?php echo $value; ?>">
+    <?php endforeach; endif; ?>
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="<?= get_the_permalink() ?>">
+    <?php if(get_field('meta_tags')): foreach(get_field('meta_tags') as $meta_property => $meta_content): ?>
+    <?php $value = $meta_content ? $meta_content : $meta_defaults[$meta_property]; ?>
+    <meta property="twitter:<?php echo $meta_property; ?>" content="<?php echo $value; ?>">
+    <?php endforeach; endif; ?>
+
+    <?php wp_head(); ?>
+
+</head>
+<body class="font-body text-body overflow-x-hidden">
+
+<!-- <div id="loader" class="fixed w-[100vw] h-[100vh] mt-[80px] lg:mt-[120px] flex items-center justify-center bg-white z-[22] top-0 left-0">
+    <div class="loader mt-[-80px] lg:mt-[-120px]"></div>
+</div> -->
+
+<div id="content">
+<?php endif; ?>
+
+<main>
+
+<header class="w-full h-[99px] border-b border-[#D9D9D9] sticky top-0 bg-white z-50">
+    <div class="container h-full flex items-center justify-between">
+        <div class="logo">
+            <a href="<?= get_home_url() ?>">
+                <img src="<?= get_template_directory_uri() . '/img/logo.svg' ?>" alt="FSCM">
+            </a>
+        </div>
+        <div class="flex items-center justify-end text-[20px] font-bold gap-6">
+            <a href="<?= get_home_url() . '/about' ?>">About Us</a>
+            <a href="<?= get_home_url() . '/contact' ?>">Contact Us</a>
+            <a href="<?= get_home_url() . '/fscm' ?>" class="py-1.5 px-5 bg-[#1E1E1E] text-white ms-2 -me-2">FSCM</a>
+            <a href="<?= get_home_url() . '/eco' ?>" class="py-1.5 px-5 bg-[#EC221F] text-white">ECO</a>
+        </div>
+    </div>
+</header>
