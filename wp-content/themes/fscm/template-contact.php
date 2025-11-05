@@ -27,7 +27,7 @@
 ]); ?> 
 
 <div class="w-full" id="contact">
-    <div class="container px-16 py-20 !max-w-[1108px] flex flex-col-reverse lg:grid lg:grid-cols-2 gap-6">
+    <div class="container py-20 !max-w-[1108px] flex flex-col-reverse lg:grid lg:grid-cols-2 gap-6">
         <div class="w-full inline-flex justify-start items-start gap-6">
             <div class="w-full min-w-60 p-6 bg-white outline outline-2 outline-offset-[-1px] outline-neutral-500 inline-flex flex-col justify-start items-center gap-6">
                 <div class="self-stretch flex flex-col justify-start items-center gap-6">
