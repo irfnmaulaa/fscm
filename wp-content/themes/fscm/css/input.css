@@ -13,7 +13,7 @@ html, body {
 } 
 
 .container {
-    @apply w-full max-w-[1440px] mx-auto h-full;
+    @apply w-full max-w-[1440px] mx-auto h-full px-5 lg:px-16;
 }
 
 .single-content {

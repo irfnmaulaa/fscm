@@ -46,18 +46,36 @@
 
 <main>
 
-<header class="w-full h-[99px] border-b border-[#D9D9D9] sticky top-0 bg-white z-50">
+<header class="w-full h-[80px] lg:h-[99px] border-b border-[#D9D9D9] sticky top-0 bg-white z-50">
     <div class="container h-full flex items-center justify-between">
         <div class="logo">
             <a href="<?= get_home_url() ?>">
-                <img src="<?= get_template_directory_uri() . '/img/eco-logo.svg' ?>" alt="eco">
+                <img src="<?= get_template_directory_uri() . '/img/eco-logo.svg' ?>" alt="eco" class="h-[35px] lg:h-[48px]">
             </a>
         </div>
-        <div class="flex items-center justify-end text-[20px] font-bold gap-6">
-            <a href="<?= get_home_url() . '/eco#about' ?>">About ECO</a>
-            <a href="<?= get_home_url() . '/eco#products' ?>">Our Products</a>
-            <a href="<?= get_home_url() . '/eco#testimonial' ?>">Testimonial</a>
-            <a href="<?= get_home_url() . '/eco-products' ?>" class="py-1.5 px-5 bg-[#C00F0C] text-white ms-2 -me-2">Find My Parts</a>
-        </div>
+
+        <!-- Mobile toggle button -->
+        <button id="nav-toggle" class="lg:hidden flex flex-col gap-1.5 focus:outline-none">
+            <span class="block w-6 h-0.5 bg-black"></span>
+            <span class="block w-6 h-0.5 bg-black"></span>
+            <span class="block w-6 h-0.5 bg-black"></span>
+        </button>
+
+        <!-- Navigation links -->
+         <div id="nav-menu" class="hidden lg:flex absolute lg:relative top-full lg:top-0 left-0 w-full lg:w-auto bg-white lg:bg-transparent border-t lg:border-t-0 border-[#D9D9D9]">
+            <nav class="flex text-center lg:text-left lg:flex-row lg:items-center lg:justify-end lg:text-[20px] lg:font-bold gap-2.5 lg:gap-6 lg:flex-row flex-col p-4 lg:p-0">
+                <a href="<?= get_home_url() . '/eco#about' ?>">About ECO</a>
+                <a href="<?= get_home_url() . '/eco#products' ?>">Our Products</a>
+                <a href="<?= get_home_url() . '/eco#testimonial' ?>">Testimonial</a>
+                <a href="<?= get_home_url() . '/eco-products' ?>" class="py-1.5 px-5 bg-[#C00F0C] text-white lg:ms-2 lg:-me-2">Find My Parts</a>
+            </nav>
+         </div>
     </div>
 </header>
+
+<script>
+    document.getElementById('nav-toggle').addEventListener('click', function() {
+        const menu = document.getElementById('nav-menu');
+        menu.classList.toggle('hidden');
+    });
+</script> 
