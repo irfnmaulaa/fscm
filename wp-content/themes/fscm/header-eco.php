@@ -50,7 +50,7 @@
     <div class="container h-full flex items-center justify-between">
         <div class="logo">
             <a href="<?= get_home_url() ?>">
-                <img src="<?= get_template_directory_uri() . '/img/eco-logo.svg' ?>" alt="eco" class="h-[35px] lg:h-[48px]">
+                <img src="<?= get_template_directory_uri() . '/img/eco-logo.svg' ?>" alt="eco" class="h-[40px] lg:h-[55px]">
             </a>
         </div>
 
@@ -63,11 +63,11 @@
 
         <!-- Navigation links -->
          <div id="nav-menu" class="hidden lg:flex absolute lg:relative top-full lg:top-0 left-0 w-full lg:w-auto bg-white lg:bg-transparent border-t lg:border-t-0 border-[#D9D9D9]">
-            <nav class="flex text-center lg:text-left lg:flex-row lg:items-center lg:justify-end lg:text-[20px] lg:font-bold gap-2.5 lg:gap-6 lg:flex-row flex-col p-4 lg:p-0">
+            <nav class="flex text-center lg:text-left lg:flex-row lg:items-center lg:justify-end lg:text-[20px]  gap-2.5 lg:gap-6 lg:flex-row flex-col p-4 lg:p-0">
                 <a href="<?= get_home_url() . '/eco#about' ?>">About ECO</a>
                 <a href="<?= get_home_url() . '/eco#products' ?>">Our Products</a>
                 <a href="<?= get_home_url() . '/eco#testimonial' ?>">Testimonial</a>
-                <a href="<?= get_home_url() . '/eco-products' ?>" class="py-1.5 px-5 bg-[#C00F0C] text-white lg:ms-2 lg:-me-2">Find My Parts</a>
+                <a href="<?= get_home_url() . '/eco-products' ?>" class="btn btn-red py-1.5 px-5 bg-[#C00F0C] text-white lg:ms-2 lg:-me-2">Find My Parts</a>
             </nav>
          </div>
     </div>

@@ -43,3 +43,36 @@ html, body {
 .single-content ul {
     @apply list-disc pl-6;
 }
+a:not(.btn) {
+    @apply transition-all duration-200 hover:text-[#C00F0C];
+}
+.btn {
+    @apply transition-all duration-200;
+}
+.btn * {
+    @apply transition-all duration-200;
+}
+.btn-white:hover {
+    @apply bg-[#1E1E1E] text-white;
+}
+.btn-white:hover * {
+    @apply stroke-[#fff];
+}
+.btn-white-hover-red:hover {
+    @apply bg-[#C00F0C] text-white;
+}
+.btn-white-hover-red:hover * {
+    @apply stroke-[#fff];
+}
+.btn-red:hover {
+    @apply bg-[#990B09] text-white;
+}
+.btn-red:hover * {
+    @apply stroke-[#fff];
+}
+.btn-black:hover {
+    @apply bg-[#454545] text-white;
+}
+.btn-black:hover * {
+    @apply stroke-[#fff];
+}

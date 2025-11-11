@@ -8,14 +8,7 @@
 <?php get_header(); ?>
 
 
-<?php get_template_part('sections/section', 'hero', [ 
-  'title' => 'Partner in Every Journey',
-  'description' => 'Your Genuine Partner in Innovation and Reliability for Smarter, Sustainable Journeys',
-  'call_to_action' => [
-      'title' => 'Our Brands',
-      'url' => '#about',
-  ], 
-]); ?>
+<?php get_template_part('sections/section', 'hero'); ?>
 
 <?php get_template_part('sections/section', 'short-about'); ?>
 

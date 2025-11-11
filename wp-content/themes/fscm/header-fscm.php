@@ -63,11 +63,11 @@
 
         <!-- Navigation links -->
          <div id="nav-menu" class="hidden lg:flex absolute lg:relative top-full lg:top-0 left-0 w-full lg:w-auto bg-white lg:bg-transparent border-t lg:border-t-0 border-[#D9D9D9]">
-            <nav class="flex text-center lg:text-left lg:flex-row lg:items-center lg:justify-end lg:text-[20px] lg:font-bold gap-2.5 lg:gap-6 lg:flex-row flex-col p-4 lg:p-0">
+            <nav class="flex text-center lg:text-left lg:flex-row lg:items-center lg:justify-end lg:text-[20px] gap-2.5 lg:gap-6 lg:flex-row flex-col p-4 lg:p-0">
                 <a href="<?= get_home_url() . '/fscm#about' ?>">About FSCM</a>
                 <a href="<?= get_home_url() . '/fscm#products' ?>">Our Products</a>
                 <a href="<?= get_home_url() . '/fscm#testimonial' ?>">Testimonial</a>
-                <a href="<?= get_home_url() . '/fscm-products' ?>" class="py-1.5 px-5 bg-[#1E1E1E] text-white lg:ms-2 lg:-me-2">Find My Parts</a>
+                <a href="<?= get_home_url() . '/fscm-products' ?>" class="btn btn-black py-1.5 px-5 bg-[#1E1E1E] text-white lg:ms-2 lg:-me-2">Find My Parts</a>
             </nav>
          </div>
     </div>

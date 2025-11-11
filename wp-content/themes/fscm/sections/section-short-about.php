@@ -38,7 +38,7 @@
         <img class="w-40 lg:w-56 h-8 lg:h-12" src="<?= get_template_directory_uri() . '/img/astra.webp' ?>" />
         <div class="self-stretch flex justify-start items-start gap-2 lg:gap-3">
           <div class="flex-1 flex flex-col justify-start items-start gap-0.5">
-            <div class="self-stretch justify-center text-[#757575] text-sm lg:text-base font-semibold leading-5 lg:leading-6">Member of Astra Autoparts Group</div>
+            <div class="self-stretch justify-center text-[#757575] text-sm lg:text-base font-semibold leading-5 lg:leading-6">Member of Astra Otoparts</div>
           </div>
         </div>
       </div>

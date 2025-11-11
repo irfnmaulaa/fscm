@@ -16,26 +16,26 @@
 
         <div class="w-full max-w-[262px] flex flex-col gap-5 max-sm:max-w-full">
             <div class="flex items-center gap-4 max-sm:justify-center">
-                <a href="">
+                <!-- <a href="">
                     <img class="h-[24px]" height="24" width="24" src="<?= get_template_directory_uri() . '/img/x.svg' ?>" />
-                </a>
-                <a href="">
+                </a> -->
+                <a href="https://www.instagram.com/fscm.id" target="_blank">
                     <img class="h-[24px]" height="24" width="24" src="<?= get_template_directory_uri() . '/img/instagram.svg' ?>" />
                 </a>
-                <a href="">
+                <!-- <a href="">
                     <img class="h-[24px]" height="24" width="24" src="<?= get_template_directory_uri() . '/img/youtube.svg' ?>" />
                 </a>
                 <a href="">
                     <img class="h-[24px]" height="24" width="24" src="<?= get_template_directory_uri() . '/img/linkedin.svg' ?>" />
-                </a>
+                </a> -->
             </div>
             <div class="text-white text-[14px] whitespace-pre-line max-sm:text-[13px]">PT FSCM Manufacturing Indonesia
 Jl. Pulogadung No. 30
 Kawasan Industri Pulogadung
 Jakarta Timur
 
-<a href="mailto:fscm@fscm.co.id" class="hover:underline">fscm@fscm.co.id</a>
-<a href="tel:+62214600163" class="hover:underline">+62 21 460 0163</a></div>
+<a href="mailto:sales@fscm.co.id" target="_blank" class="hover:underline">sales@fscm.co.id</a>
+<a href="https://wa.me/+6282257584400" target="_blank" class="hover:underline">+62 822-5758-4400</a></div>
         </div>
     </div>
 </footer>

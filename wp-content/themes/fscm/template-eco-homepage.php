@@ -7,20 +7,7 @@
 
 <?php get_header('eco'); ?>
 
-<div class="hero w-full h-[560px]" style="background: url('<?= get_template_directory_uri() . '/img/hero-eco.webp' ?>'), linear-gradient(180deg, rgba(135, 22, 22, 0.81) 0%, rgba(255, 145, 145, 0.81) 100%); background-size: cover; background-position: center; background-repeat: no-repeat; background-blend-mode: darken;">
-  <div class="container !max-w-[923px] flex items-center justify-center text-center flex-col gap-3">
-
-    <h2 class="text-white text-[64px] font-bold">Partner in Every Journey</h2>
-    <p class="text-white text-[40px] leading-[1.3] whitespace-pre-line">Suku Cadang Bagus Tapi Ekonomis.
-Buat Perawatan Harian Tanpa Bikin Kantong Jebol.</p>
-    <a href="<?= get_home_url() . '/eco-products' ?>" class="btn mt-7 btn-primary text-[24px] font-bold px-5 py-2 inline-flex gap-2 justify-center items-center bg-white border-[#767676]">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="var(--Icon-Default-Default, #1E1E1E)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-      Find My Parts
-    </a>
-  </div> 
-</div>
+<?php get_template_part('sections/section', 'hero-eco'); ?>
 
 <div id="about" class="w-full" style="background: linear-gradient(90deg, #C00F0C 0%, #FF9191 100%);">
   <div class="w-full h-4 bg-gradient-to-r from-red-300 via-red-600 via 30% to-white"></div> 
@@ -99,13 +86,13 @@ Buat Perawatan Harian Tanpa Bikin Kantong Jebol.</p>
     </div>
 
     <div class="flex justify-center items-center gap-4 mt-3">
-        <a href="<?= site_url('/eco-products') ?>" class="px-16 py-2 inline-flex gap-2 justify-center items-center text-white bg-[#C00F0C]">  
+        <a href="<?= site_url('/eco-products') ?>" class="btn btn-red px-16 py-2 inline-flex gap-2 justify-center items-center text-white bg-[#C00F0C]">  
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="var(--Icon-Default-Default, #fff)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             Find My Parts
         </a> 
-        <a href="#" class="px-12 py-2 inline-flex gap-2 justify-center items-center text-white bg-[#C00F0C]">  
+        <a href="https://drive.google.com/drive/folders/1i8jxNW7VpNH_gCr4eWZLePr9v5cMeOz5?usp=drive_link" target="_blank" class="btn btn-red px-12 py-2 inline-flex gap-2 justify-center items-center text-white bg-[#C00F0C]">  
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10M4.66667 6.66667L8 10M8 10L11.3333 6.66667M8 10V2" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
