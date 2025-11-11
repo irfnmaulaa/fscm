@@ -1425,6 +1425,11 @@ video {
   background-color: rgb(254 242 242 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#E20000\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 0 0 / var(--tw-bg-opacity, 1));
+}
+
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -2091,6 +2096,14 @@ a:not(.btn):hover{
   max-height: 20rem;
 }
 
+.peer:checked ~ .peer-checked\:max-h-\[200px\]{
+  max-height: 200px;
+}
+
+.peer:checked ~ .peer-checked\:max-h-\[700px\]{
+  max-height: 700px;
+}
+
 .peer:checked ~ .peer-checked\:pb-2{
   padding-bottom: 0.5rem;
 }
@@ -2221,6 +2234,10 @@ a:not(.btn):hover{
 
   .lg\:w-auto{
     width: auto;
+  }
+
+  .lg\:w-\[488px\]{
+    width: 488px;
   }
 
   .lg\:min-w-72{
@@ -2385,6 +2402,11 @@ a:not(.btn):hover{
   .lg\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .lg\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .lg\:leading-10{

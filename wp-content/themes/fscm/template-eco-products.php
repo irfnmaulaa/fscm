@@ -10,7 +10,7 @@
 <div class="w-full relative"> 
   <div class="container px-16 py-20 flex flex-col justify-center items-center gap-10"> 
 
-    <div class="grid grid-cols-4 w-full gap-6">
+    <div class="grid grid-cols-2 lg:grid-cols-4 w-full gap-3 lg:gap-6">
       <?php
       $products = get_posts([
         'post_type'      => 'eco-product',

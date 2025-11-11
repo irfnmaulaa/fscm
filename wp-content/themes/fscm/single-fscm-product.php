@@ -9,16 +9,16 @@
 
 <div class="w-full bg-[#F5F5F5]">
   <div class="container px-16 py-20 flex flex-col justify-center items-center gap-10">
-        <div class="grid grid-cols-2 flex justify-start gap-10">
+        <div class="grid lg:grid-cols-2 flex justify-start gap-4 lg:gap-10">
             <div>
               <img class="w-full h-full" src="<?= get_the_post_thumbnail_url() ?>" />
             </div>
             
-            <div class="w-full inline-flex flex-col justify-center items-start gap-6">
-              <div class="self-stretch flex flex-col justify-start items-start gap-4">
-                <div class="self-stretch flex flex-col justify-start items-start gap-4">
+            <div class="w-full inline-flex flex-col justify-center items-start gap-3 lg:gap-6">
+              <div class="self-stretch flex flex-col justify-start items-start gap-2 lg:gap-4">
+                <div class="self-stretch flex flex-col justify-start items-start gap-2 lg:gap-4">
                   <div class="self-stretch inline-flex justify-start items-start">
-                    <div class="justify-start text-Text-Default-Default text-6xl font-bold leading-[76.80px]">V-Belt</div>
+                    <div class="justify-start text-Text-Default-Default text-3xl lg:text-6xl font-bold leading-[76.80px]">V-Belt</div>
                   </div>
                 </div>
                 <div class="self-stretch inline-flex justify-start items-start">
@@ -51,7 +51,7 @@
                             </svg>
                         </div>
                     </label>
-                    <div class="single-content max-h-0 px-4 text-[14px] leading-[1.6] peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-80">
+                    <div class="single-content max-h-0 px-4 text-[14px] leading-[1.6] peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-[700px] py-2">
                         V-Belt adalah komponen utama pada sistem transmisi motor matic yang berfungsi menghubungkan putaran mesin ke roda belakang.
                         Produk V-Belt dari FASTRA dan FSCM dirancang dengan material elastomer berkualitas tinggi, memberikan fleksibilitas dan daya tahan optimal untuk penggunaan harian maupun intensif.
                         <ul>
@@ -81,7 +81,7 @@
 
     <div class="text-center text-3xl font-semibold leading-10">Lihat Produk Lainnya</div>
 
-    <div class="grid grid-cols-4 w-full gap-6">
+    <div class="grid grid-cols-2 lg:grid-cols-4 w-full gap-3 lg:gap-6">
       <?php
       $products = get_posts([
         'post_type'      => 'fscm-product',

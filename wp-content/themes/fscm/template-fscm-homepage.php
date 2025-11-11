@@ -12,44 +12,44 @@
 <div id="about" class="w-full" style="background: linear-gradient(90deg, #2C2C2C 0%, #929292 100%);">
   <div class="w-full h-4 bg-gradient-to-r from-red-300 via-red-600 via 30% to-white"></div> 
   
-  <div class="container px-16 py-20 flex flex-col justify-center items-center gap-10">
-    <div class="text-center text-white text-3xl font-semibold leading-10">Built Through Experience. Proven on The Road.</div>
-    <div class="grid grid-cols-4 gap-6">
-      <div class="size- min-w-72 p-6 bg-white flex-col justify-start items-start gap-4">
-        <div class="w-48 justify-start items-start">
-          <div class="flex-1 justify-start text-Text-Default-Default text-4xl font-bold leading-[48px]">5000+</div>
+  <div class="container py-10 lg:py-20 flex flex-col justify-center items-center gap-6 lg:gap-10">
+    <div class="text-center text-white text-2xl lg:text-3xl font-semibold leading-8 lg:leading-10">Built Through Experience. Proven on The Road.</div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
+      <div class="size- min-w-0 lg:min-w-72 p-4 lg:p-6 bg-white flex-col justify-start items-start gap-3 lg:gap-4">
+        <div class="w-full lg:w-48 justify-start items-start">
+          <div class="flex-1 justify-start text-Text-Default-Default text-2xl lg:text-4xl font-bold leading-8 lg:leading-[48px]">5000+</div>
         </div>
-        <div class="self-stretch flex justify-start items-start gap-3">
+        <div class="self-stretch flex justify-start items-start gap-2 lg:gap-3">
           <div class="flex-1 flex flex-col justify-start items-start gap-0.5">
-            <div class="self-stretch justify-center text-[#757575] text-base font-semibold leading-6">Mechanics & Authorized Workshops Recommend Us</div>
+            <div class="self-stretch justify-center text-[#757575] text-sm lg:text-base font-semibold leading-5 lg:leading-6">Mechanics & Authorized Workshops Recommend Us</div>
           </div>
         </div>
       </div>
-      <div class="size- min-w-72 p-6 bg-white flex flex-col justify-start items-start gap-4">
+      <div class="size- min-w-0 lg:min-w-72 p-4 lg:p-6 bg-white flex flex-col justify-start items-start gap-3 lg:gap-4">
         <div class="self-stretch flex justify-start items-start">
-          <div class="justify-start text-Text-Default-Default text-4xl font-bold leading-[48px]">40+ Years</div>
+          <div class="justify-start text-Text-Default-Default text-2xl lg:text-4xl font-bold leading-8 lg:leading-[48px]">40+ Years</div>
         </div>
-        <div class="self-stretch flex justify-start items-start gap-3">
+        <div class="self-stretch flex justify-start items-start gap-2 lg:gap-3">
           <div class="flex-1 flex flex-col justify-start items-start gap-0.5">
-            <div class="self-stretch justify-center text-[#757575] text-base font-semibold leading-6">Mechanics & Authorized Workshops Recommend Us</div>
+            <div class="self-stretch justify-center text-[#757575] text-sm lg:text-base font-semibold leading-5 lg:leading-6">Mechanics & Authorized Workshops Recommend Us</div>
           </div>
         </div>
       </div>
-      <div class="size- min-w-72 p-6 bg-white flex flex-col justify-start items-start gap-4">
-        <div class="w-48 flex justify-start items-start">
-          <div class="flex-1 justify-start text-Text-Default-Default text-4xl font-bold leading-[48px]">500+</div>
+      <div class="size- min-w-0 lg:min-w-72 p-4 lg:p-6 bg-white flex flex-col justify-start items-start gap-3 lg:gap-4">
+        <div class="w-full lg:w-48 flex justify-start items-start">
+          <div class="flex-1 justify-start text-Text-Default-Default text-2xl lg:text-4xl font-bold leading-8 lg:leading-[48px]">500+</div>
         </div>
-        <div class="self-stretch flex justify-start items-start gap-3">
+        <div class="self-stretch flex justify-start items-start gap-2 lg:gap-3">
           <div class="flex-1 flex flex-col justify-start items-start gap-0.5">
-            <div class="self-stretch justify-center text-[#757575] text-base font-semibold leading-6">Vehicle Models and Variants are Supported</div>
+            <div class="self-stretch justify-center text-[#757575] text-sm lg:text-base font-semibold leading-5 lg:leading-6">Vehicle Models and Variants are Supported</div>
           </div>
         </div>
       </div>
-      <div class="size- min-w-72 p-6 bg-white flex flex-col justify-start items-start gap-4">
-        <img class="w-56 h-12" src="<?= get_template_directory_uri() . '/img/astra.webp' ?>" />
-        <div class="self-stretch flex justify-start items-start gap-3">
+      <div class="size- min-w-0 lg:min-w-72 p-4 lg:p-6 bg-white flex flex-col justify-start items-start gap-3 lg:gap-4">
+        <img class="w-40 lg:w-56 h-8 lg:h-12" src="<?= get_template_directory_uri() . '/img/astra.webp' ?>" />
+        <div class="self-stretch flex justify-start items-start gap-2 lg:gap-3">
           <div class="flex-1 flex flex-col justify-start items-start gap-0.5">
-            <div class="self-stretch justify-center text-[#757575] text-base font-semibold leading-6">Member of Astra Autoparts Group</div>
+            <div class="self-stretch justify-center text-[#757575] text-sm lg:text-base font-semibold leading-5 lg:leading-6">Member of Astra Otoparts</div>
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@
   <div class="container px-16 py-20 flex flex-col justify-center items-center gap-10">
     <div class="text-center text-3xl font-semibold leading-10">FSCM Product Categories</div>
 
-    <div class="grid grid-cols-3 gap-6">
+    <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6">
       <?php
       $categories = get_terms([
         'taxonomy'   => 'fscm-category',
@@ -88,7 +88,7 @@
       <?php endforeach; ?>
     </div>
 
-    <div class="flex justify-center items-center gap-4 mt-3">
+    <div class="flex flex-col lg:flex-row justify-center items-center gap-4 mt-3">
         <a href="<?= site_url('/fscm-products') ?>" class="btn btn-black px-16 py-2 inline-flex gap-2 justify-center items-center text-white bg-[#2C2C2C]">  
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="var(--Icon-Default-Default, #fff)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -108,7 +108,7 @@
 
 <div class="w-full" style="background: linear-gradient(281.47deg, #2C2C2C 29.8%, #929292 96.73%);">
   <div class="container px-16 py-20 flex flex-col justify-center items-center gap-10">
-        <div class="max-w-[1200px] grid grid-cols-2 flex justify-start items-center bg-white">
+        <div class="max-w-[1200px] grid lg:grid-cols-2 flex justify-start items-center bg-white">
             <img class="w-full h-full" src="<?= get_template_directory_uri() . '/img/section-info.webp' ?>" />
             <div class="w-full min-w-60 p-8 flex flex-col justify-center items-start gap-6 overflow-hidden">
                 <div class="self-stretch flex flex-col justify-end items-center gap-4">
@@ -116,10 +116,10 @@
                     <div class="flex-1 text-center justify-start text-Text-Default-Default text-3xl font-semibold leading-10">Pasti Pas, Nggak Bikin Worry</div>
                 </div>
                 <div class="self-stretch text-center justify-start text-Text-Default-Default text-2xl font-normal leading-7">FSCM SafeGuard Warranty</div>
-                <div class="w-[488px] text-center justify-center text-Text-Default-Default text-base font-normal leading-6">Dirancang dengan standar OEM dan teknologi terkini, produk FSCM dijamin pas di kendaraanmu dan tahan di segala kondisi.</div>
+                <div class="w-full lg:w-[488px] text-center justify-center text-Text-Default-Default text-base font-normal leading-6">Dirancang dengan standar OEM dan teknologi terkini, produk FSCM dijamin pas di kendaraanmu dan tahan di segala kondisi.</div>
                 </div>
-                <div class="self-stretch text-white inline-flex justify-start items-start gap-4">
-                    <div class="w-56 p-3 bg-zinc-800 inline-flex flex-col justify-center items-center gap-2 overflow-hidden">
+                <div class="self-stretch text-white inline-flex flex-col lg:flex-row justify-start items-start gap-4">
+                    <div class="w-full lg:w-56 p-3 bg-zinc-800 inline-flex flex-col justify-center items-center gap-2 overflow-hidden">
                         <div class="justify-start text-Text-Brand-On-Brand text-base font-semibold leading-6">Rusak? FREE 2x Ganti*</div>
                         <div class="self-stretch text-center justify-start"><span class="text-Text-Brand-On-Brand text-base font-normal leading-6">Extra tenang dengan garansi FREE ganti 2pcs untuk produk rantai yang rusak akibat cacat produksi atau kegagalan material.<br/></span><span class="text-Text-Brand-On-Brand text-sm font-normal leading-5">*Berlaku untuk produk rantai</span></div>
                     </div>
@@ -140,7 +140,7 @@
   <div class="container px-16 py-20 flex flex-col justify-center items-center gap-10">
     <div class="text-center text-3xl font-semibold leading-10">Testimonials</div>
 
-    <div class="grid grid-cols-3 gap-6">
+    <div class="grid lg:grid-cols-3 gap-3 lg:gap-6">
       <?php 
       foreach (range(1, 3) as $i) : 
       ?>
