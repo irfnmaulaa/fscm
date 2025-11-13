@@ -13,7 +13,7 @@
   <div class="w-full h-4 bg-gradient-to-r from-red-300 via-red-600 via 30% to-white"></div> 
   
   <div class="container py-10 lg:py-20 flex flex-col justify-center items-center gap-6 lg:gap-10">
-    <div class="text-center text-white text-2xl lg:text-3xl font-semibold leading-8 lg:leading-10">Built Through Experience. Proven on The Road.</div>
+    <div class="text-center text-white text-2xl lg:text-3xl font-semibold leading-8 lg:leading-10">Sparepart Standar Ori Anti Tekor</div>
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
       <div class="size- min-w-0 lg:min-w-72 p-4 lg:p-6 bg-white flex-col justify-start items-start gap-3 lg:gap-4">
         <div class="w-full lg:w-48 justify-start items-start">
