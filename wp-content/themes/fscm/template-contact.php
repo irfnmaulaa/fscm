@@ -61,7 +61,7 @@
     <div class="container flex justify-center py-20 ">
         <div class="w-full mx-auto !max-w-[720px] bg-white inline-flex justify-start items-start gap-6 flex-wrap content-start">
             <div class="flex-1 inline-flex flex-col justify-start items-start gap-6">
-                <div class="self-stretch justify-start text-stone-900 text-3xl font-semibold leading-10 text-center ">Temukan Sparepart Kami Melalui Dealer Resmi</div>
+                <div class="self-stretch justify-start text-stone-900 text-3xl font-semibold leading-10 text-center ">Temukan Sparepart Kami Melalui<br/> Dealer Resmi</div>
                 
                 <div class="border border-[#D9D9D9] w-full">
                     <input type="checkbox" checked id="accordion-0" class="peer hidden accordion-checkbox">    

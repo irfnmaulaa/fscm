@@ -6,7 +6,7 @@
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
       <div class="size- min-w-0 lg:min-w-72 p-4 lg:p-6 bg-white flex flex-col justify-start items-start gap-3 lg:gap-4">
         <div class="w-full lg:w-48 justify-start items-start">
-          <div class="flex-1 justify-start text-Text-Default-Default text-2xl lg:text-4xl font-bold leading-8 lg:leading-[48px]">5000+</div>
+          <div class="flex-1 justify-start font-extrabold text-2xl lg:text-4xl leading-8 lg:leading-[48px]">5000+</div>
         </div>
         <div class="self-stretch flex justify-start items-start gap-2 lg:gap-3">
           <div class="flex-1 flex flex-col justify-start items-start gap-0.5">
@@ -16,7 +16,7 @@
       </div>
       <div class="size- min-w-0 lg:min-w-72 p-4 lg:p-6 bg-white flex flex-col justify-start items-start gap-3 lg:gap-4">
         <div class="self-stretch flex justify-start items-start">
-          <div class="justify-start text-Text-Default-Default text-2xl lg:text-4xl font-bold leading-8 lg:leading-[48px]">40+ Years</div>
+          <div class="justify-start font-extrabold text-2xl lg:text-4xl leading-8 lg:leading-[48px]">40+ Years</div>
         </div>
         <div class="self-stretch flex justify-start items-start gap-2 lg:gap-3">
           <div class="flex-1 flex flex-col justify-start items-start gap-0.5">
@@ -26,7 +26,7 @@
       </div>
       <div class="size- min-w-0 lg:min-w-72 p-4 lg:p-6 bg-white flex flex-col justify-start items-start gap-3 lg:gap-4">
         <div class="w-full lg:w-48 flex justify-start items-start">
-          <div class="flex-1 justify-start text-Text-Default-Default text-2xl lg:text-4xl font-bold leading-8 lg:leading-[48px]">500+</div>
+          <div class="flex-1 justify-start font-extrabold text-2xl lg:text-4xl leading-8 lg:leading-[48px]">500+</div>
         </div>
         <div class="self-stretch flex justify-start items-start gap-2 lg:gap-3">
           <div class="flex-1 flex flex-col justify-start items-start gap-0.5">

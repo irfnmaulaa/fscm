@@ -13,7 +13,7 @@
 <?php get_template_part('sections/section', 'short-about'); ?>
 
 <div class="w-full">
-    <div class="container px-16 py-20 !max-w-[1120px] grid lg:grid-cols-[520fr_576fr] gap-6">
+    <div class="container px-16 py-20 !max-w-[1200px] grid lg:grid-cols-[520fr_576fr] gap-6">
         <div class="flex flex-col gap-6">
             <div class="w-full p-6 bg-white outline outline-2 outline-offset-[-1px] outline-neutral-500 inline-flex justify-start items-start gap-6 flex-wrap content-start">
                 <div class="flex-1 inline-flex flex-col justify-start items-start gap-4">

@@ -17,7 +17,7 @@
       <div class="relative group">
         <img class="w-full" src="<?= get_template_directory_uri() . '/img/bg-card-eco.webp' ?>" />
         <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-3 lg:gap-5 opacity-0 group-hover:opacity-0 lg:opacity-100 transition-all duration-300 ease-in-out">
-          <img class="h-10 md:text-medium lg:h-[48px]" height="48" width="190" src="<?= get_template_directory_uri() . '/img/logo-card-eco.webp' ?>" />
+          <img class="h-10 md:text-medium lg:h-[48px]" height="48" width="130" src="<?= get_template_directory_uri() . '/img/logo-card-eco.webp' ?>" />
         </div>
         <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-3 lg:gap-5 group-hover:opacity-100 lg:opacity-0 bg-[#E20000CC] transition-all duration-300 ease-in-out">
           <div class="text-xl lg:text-[32px] font-semibold leading-7 lg:leading-10 text-white">ECO</div>

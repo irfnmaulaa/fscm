@@ -11,9 +11,9 @@
     ?>
       <div class="hero-slide w-full flex-shrink-0 h-[560px] lg:h-[560px] flex items-center justify-center"
            style="background: url('<?= is_numeric($slide['bg']) ? wp_get_attachment_url($slide['bg']) : $slide['bg'] ?>'), linear-gradient(180deg, rgba(135, 22, 22, 0.81) 0%, rgba(255, 145, 145, 0.81) 100%); background-size: cover; background-position: center; background-repeat: no-repeat; background-blend-mode: darken;">
-        <div class="container !max-w-[900px] flex items-center justify-center text-center flex-col gap-3 px-4">
-          <h2 class="text-white text-[40px] lg:text-[64px] font-bold leading-tight lg:leading-none"><?= $slide['title'] ?></h2>
-          <p class="text-white text-[24px] mx-auto !max-w-[882px] lg:text-[40px] leading-[1.4] lg:leading-[1.3]"><?= $slide['description'] ?></p>
+        <div class="container !max-w-[1500px] flex items-center justify-center text-center flex-col gap-3 px-4">
+          <h2 class="text-white text-[40px] lg:text-[64px] font-bold leading-tight lg:leading-none lg:whitespace-pre-line"><?= $slide['title'] ?></h2>
+          <p class="text-white text-[24px] mx-auto lg:text-[40px] leading-[1.4] lg:leading-[1.3] lg:whitespace-pre-line"><?= $slide['description'] ?></p>
           <a href="<?= $slide['cta']['url'] ?? '#' ?>" target="<?= $slide['cta']['target'] ?? '_self' ?>" class="btn btn-white-hover-red mt-5 lg:mt-7 btn-primary text-[18px] lg:text-[24px] font-bold px-4 py-2 lg:px-5 lg:py-2 inline-flex gap-2 justify-center items-center bg-white border-[#767676]">
             <?= trim($slide['cta_icon']) ? $slide['cta_icon'] : '<span class="animate-bounce -mb-2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 5V19M12 19L19 12M12 19L5 12" stroke="#1E1E1E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' ?>
             <?= $slide['cta']['title'] ?? '' ?>

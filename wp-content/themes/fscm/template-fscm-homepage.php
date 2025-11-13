@@ -89,13 +89,13 @@
     </div>
 
     <div class="flex flex-col lg:flex-row justify-center items-center gap-4 mt-3">
-        <a href="<?= site_url('/fscm-products') ?>" class="btn btn-black px-16 py-2 inline-flex gap-2 justify-center items-center text-white bg-[#2C2C2C]">  
+        <a href="<?= site_url('/fscm-products') ?>" class="btn btn-black px-24 py-2 inline-flex gap-2 justify-center items-center text-white bg-[#2C2C2C]">  
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="var(--Icon-Default-Default, #fff)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             Find My Parts
         </a> 
-        <a href="https://drive.google.com/file/d/1fAPZYyokPoI1BLh6APJVXOKWq5BRMtjr/view?usp=sharing" target="_blank" class="btn btn-black px-12 py-2 inline-flex gap-2 justify-center items-center text-white bg-[#2C2C2C]">  
+        <a href="https://drive.google.com/file/d/1fAPZYyokPoI1BLh6APJVXOKWq5BRMtjr/view?usp=sharing" target="_blank" class="btn btn-black px-16 py-2 inline-flex gap-2 justify-center items-center text-white bg-[#2C2C2C]">  
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10M4.66667 6.66667L8 10M8 10L11.3333 6.66667M8 10V2" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
@@ -119,12 +119,12 @@
                 <div class="w-full lg:w-[488px] text-center justify-center text-Text-Default-Default text-base font-normal leading-6">Dirancang dengan standar OEM dan teknologi terkini, produk FSCM dijamin pas di kendaraanmu dan tahan di segala kondisi.</div>
                 </div>
                 <div class="self-stretch text-white inline-flex flex-col lg:flex-row justify-start items-start gap-4">
-                    <div class="w-full lg:w-56 p-3 bg-zinc-800 inline-flex flex-col justify-center items-center gap-2 overflow-hidden">
+                    <div class="w-full lg:w-56 p-4 bg-zinc-800 inline-flex flex-col justify-center items-center gap-2 overflow-hidden">
                         <div class="justify-start text-white text-normal font-semibold leading-6">Rusak? FREE 2x Ganti*</div>
                         <div class="self-stretch text-center justify-start text-white text-normal font-light leading-6">Extra tenang dengan garansi FREE ganti 2pcs untuk produk rantai yang rusak akibat cacat produksi atau kegagalan material.</div>
                         <div class="text-white text-xs font-light italic leading-5">* Berlaku untuk produk rantai</div>
                     </div>
-                    <div class="flex-1 p-3 bg-zinc-800 inline-flex flex-col justify-center items-center gap-2 overflow-hidden">
+                    <div class="flex-1 p-4 bg-zinc-800 inline-flex flex-col justify-center items-center gap-2 overflow-hidden">
                         <div class="self-stretch text-center justify-start text-white text-normal font-semibold leading-6">100% Pasti Pas atau Tukar Gratis**</div>
                         <div class="self-stretch text-center justify-start text-white text-normal font-light leading-6">Semua produk kami dijamin memiliki presisi tinggi dan kompatibel untuk kendaraan kesayanganmu. <br/> Tidak pas? bebas ganti tanpa biaya tambahan.</div>
                         <div class="text-white text-xs font-light italic leading-5">** Berlaku untuk semua produk.</div>
