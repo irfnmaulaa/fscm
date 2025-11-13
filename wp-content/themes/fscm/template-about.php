@@ -38,7 +38,7 @@
                 <div class="flex-1 inline-flex flex-col justify-start items-start gap-4">
                     <div class="self-stretch justify-start text-stone-900 text-3xl font-semibold leading-10">Sejarah Kami</div>
                     
-                    <div class="border border-[#D9D9D9]">
+                    <div class="border border-[#D9D9D9] w-full">
                         <input type="checkbox" checked id="accordion-1" class="peer hidden accordion-checkbox">    
                         <label for="accordion-1" class="flex justify-between text-[24px] px-4 py-2 items-center cursor-pointer hover:bg-gray-100">
                             <div>1983</div>
@@ -49,11 +49,11 @@
                             </div>
                         </label>
                         <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40 peer-checked:my-2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                             Didirikan sebagai bagian dari Astra Otoparts
                         </div>
                     </div>
 
-                    <div class="border border-[#D9D9D9]">
+                    <div class="border border-[#D9D9D9] w-full">
                         <input type="checkbox" id="accordion-2" class="peer hidden accordion-checkbox">    
                         <label for="accordion-2" class="flex justify-between text-[24px] px-4 py-2 items-center cursor-pointer hover:bg-gray-100">
                             <div>1990</div>
@@ -64,11 +64,11 @@
                             </div>
                         </label>
                         <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40 peer-checked:my-2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Produksi massal cam chain dan drive chain
                         </div>
                     </div>
 
-                    <div class="border border-[#D9D9D9]">
+                    <div class="border border-[#D9D9D9] w-full">
                         <input type="checkbox" id="accordion-3" class="peer hidden accordion-checkbox">    
                         <label for="accordion-3" class="flex justify-between text-[24px] px-4 py-2 items-center cursor-pointer hover:bg-gray-100">
                             <div>2005</div>
@@ -79,11 +79,11 @@
                             </div>
                         </label>
                         <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40 peer-checked:my-2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Peluncuran Brand FASTRA
                         </div>
                     </div>
 
-                    <div class="border border-[#D9D9D9]">
+                    <div class="border border-[#D9D9D9] w-full">
                         <input type="checkbox" id="accordion-4" class="peer hidden accordion-checkbox">    
                         <label for="accordion-4" class="flex justify-between text-[24px] px-4 py-2 items-center cursor-pointer hover:bg-gray-100">
                             <div>2023</div>
@@ -94,7 +94,7 @@
                             </div>
                         </label>
                         <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40 peer-checked:my-2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Rebranding dengan pendekatan digital & e-commerce
                         </div>
                     </div>
 
