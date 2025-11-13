@@ -18,7 +18,7 @@ $content = get_field('product_content');
               <div class="self-stretch flex flex-col justify-start items-start gap-2 lg:gap-4">
                 <div class="self-stretch flex flex-col justify-start items-start gap-2 lg:gap-4">
                   <div class="self-stretch inline-flex justify-start items-start">
-                    <div class="justify-start text-3xl lg:text-[64px] font-bold lg:leading-[76.80px]" style="<?= is_fscm() ? 'color: #1E1E1E' : 'color: #E20000;' ?>"><?= $product['headline'] ?></div>
+                    <div class="justify-start text-[32px] lg:text-[64px] font-bold lg:leading-[76.80px]" style="<?= is_fscm() ? 'color: #1E1E1E' : 'color: #E20000;' ?>"><?= $product['headline'] ?></div>
                   </div>
                 </div>
                 <div class="self-stretch inline-flex justify-start items-start">
@@ -37,8 +37,7 @@ $content = get_field('product_content');
                   </clipPath>
                   </defs>
                   </svg>
-
-                Hubungi Sales Representative Kami
+                  <?= is_fscm() ? 'Hubungi Sales Representative Kami' : 'Pesan Melalui Sales Representative Kami' ?> 
               </a>
 
               <div class="border border-[#D9D9D9] bg-white">

@@ -23,7 +23,7 @@ if($template && explode(' ', $template)[0] === 'FSCM' || get_post_type() == 'fsc
   <?php endif; ?>
 
   <div class="container !max-w-[1400px] w-full py-10 lg:py-20 flex flex-col justify-center items-center gap-6 lg:gap-12">
-    <div class="text-center text-white -mt-4 text-2xl lg:text-3xl font-medium leading-8 lg:leading-10"><?= $section['title'] ?></div>
+    <div class="text-center text-white -mt-4 text-2xl lg:text-[32px] font-medium leading-8 lg:leading-10"><?= $section['title'] ?></div>
     <div class="grid w-full grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-4">
       <?php foreach(array_values($section['items']) as $item): ?>
         <div class="p-4 lg:p-6 bg-white flex flex-col justify-start items-start gap-3 lg:gap-4">

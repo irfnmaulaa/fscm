@@ -20,7 +20,7 @@ if(is_eco()) {
             <div class="w-full min-w-60 p-4 lg:p-8 flex flex-col justify-center items-start gap-6 overflow-hidden">
                 <div class="self-stretch flex flex-col justify-end items-center gap-2 lg:gap-4">
                 <div class="self-stretch inline-flex justify-start items-start">
-                    <div class="flex-1 text-center justify-start text-Text-Default-Default text-xl lg:text-3xl font-semibold leading-10"><?= $section['title'] ?></div>
+                    <div class="flex-1 text-center justify-start text-Text-Default-Default text-xl lg:text-[32px] font-semibold leading-10"><?= $section['title'] ?></div>
                 </div>
                 <div class="self-stretch text-center justify-start text-Text-Default-Default text-lg lg:text-2xl font-normal leading-7"><?= $section['subtitle'] ?></div>
                 <div class="w-full lg:w-[488px] text-center justify-center text-Text-Default-Default text-base font-normal leading-6"><?= $section['description'] ?></div>

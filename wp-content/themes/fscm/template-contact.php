@@ -49,7 +49,7 @@
                     <div class="self-stretch justify-start text-Text-Default-Default text-lg font-normal leading-6"><?= $section['title'] ?></div>
                     <?php foreach(array_values($section['items']) as $i => $item): ?>
                     <div class="self-stretch flex flex-col justify-start items-start gap-2">
-                        <div class="self-stretch justify-start text-Text-Default-Default text-3xl font-semibold leading-10"><?= $item['title'] ?></div>
+                        <div class="self-stretch justify-start text-Text-Default-Default text-[32px] font-semibold leading-10"><?= $item['title'] ?></div>
                         <div class="self-stretch justify-start text-Text-Default-Default text-base font-normal leading-6 lg:whitespace-pre-line"><?= $item['description'] ?></div>
                     </div>
                     <?php endforeach; ?> 
@@ -63,7 +63,7 @@
     <div class="container flex justify-center pt-5 pb-20 ">
         <div class="w-full mx-auto !max-w-[720px] bg-white inline-flex justify-start items-start gap-6 flex-wrap content-start">
             <div class="flex-1 inline-flex flex-col justify-start items-start gap-5 lg:gap-6">
-                <div class="self-stretch justify-start text-stone-900 text-3xl font-semibold leading-10 text-center lg:whitespace-pre-line mb-5"><?= $section['title'] ?></div>
+                <div class="self-stretch justify-start text-stone-900 text-[32px] font-semibold leading-10 text-center lg:whitespace-pre-line mb-5"><?= $section['title'] ?></div>
                 
                 <?php foreach(array_values($section['items']) as $i => $item): ?>
                 <div class="accordion border border-[#D9D9D9] w-full">

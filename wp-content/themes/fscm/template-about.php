@@ -19,7 +19,7 @@
                 <div class="w-full p-[2px]" style="background: linear-gradient(305.49deg, #434343 0%, #D9D9D9 55.77%, #737373 100%);">
                     <div class="w-full p-6 bg-white inline-flex justify-start items-start gap-6 flex-wrap content-start">
                         <div class="flex-1 inline-flex flex-col justify-start items-start gap-4">
-                            <div class="self-stretch justify-start text-stone-900 text-3xl font-semibold leading-10"><?= $section['title'] ?></div>
+                            <div class="self-stretch justify-start text-stone-900 text-[32px] font-semibold leading-10"><?= $section['title'] ?></div>
                             <div class="self-stretch justify-start text-stone-900 text-base font-semibold leading-6"><?= $section['description'] ?></div>
                         </div>
                     </div>
@@ -29,7 +29,7 @@
                 <div class="w-full p-[2px]" style="background: linear-gradient(305.49deg, #434343 0%, #D9D9D9 55.77%, #737373 100%);">
                     <div class="w-full p-6 bg-white inline-flex justify-start items-start gap-6 flex-wrap content-start">
                         <div class="flex-1 inline-flex flex-col justify-start items-start gap-4">
-                            <div class="self-stretch justify-start text-stone-900 text-3xl font-semibold leading-10"><?= $section['title'] ?></div>
+                            <div class="self-stretch justify-start text-stone-900 text-[32px] font-semibold leading-10"><?= $section['title'] ?></div>
                             <div><?= $section['description'] ?></div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                 <div class="w-full p-[2px]" style="background: linear-gradient(305.49deg, #434343 0%, #D9D9D9 55.77%, #737373 100%);">
                     <div class="w-full p-6 bg-white inline-flex justify-start items-start gap-6 flex-wrap content-start">
                         <div class="flex-1 inline-flex flex-col justify-start items-start gap-4">
-                            <div class="self-stretch justify-start text-stone-900 text-3xl font-semibold leading-10"><?= $section['title'] ?></div>
+                            <div class="self-stretch justify-start text-stone-900 text-[32px] font-semibold leading-10"><?= $section['title'] ?></div>
                             
                             <?php foreach(array_values($section['items']) as $i => $item): ?>
                             <div class="border border-[#D9D9D9] w-full">
