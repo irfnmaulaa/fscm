@@ -4,7 +4,7 @@
   <?php endif ;?>
 
   <div class="container px-16 py-8 lg:py-20 flex flex-col justify-center items-center gap-5 lg:gap-12">
-    <div class="text-center text-xl lg:text-3xl font-semibold leading-10"><?= is_fscm() ? 'FSCM' : 'ECO' ?> Product Categories</div>
+    <div class="text-center text-xl lg:text-[24px] font-semibold leading-10"><?= is_fscm() ? 'FSCM' : 'ECO' ?> Product Categories</div>
 
     <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6">
       <?php
