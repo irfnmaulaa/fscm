@@ -13,7 +13,7 @@
               <img class="w-full h-full" src="<?= get_the_post_thumbnail_url() ?>" />
             </div>
             
-            <div class="w-full inline-flex flex-col justify-center items-start gap-3 lg:gap-6">
+            <div class="w-full inline-flex flex-col py-3 items-start gap-3 lg:gap-6">
               <div class="self-stretch flex flex-col justify-start items-start gap-2 lg:gap-4">
                 <div class="self-stretch flex flex-col justify-start items-start gap-2 lg:gap-4">
                   <div class="self-stretch inline-flex justify-start items-start">
@@ -35,7 +35,7 @@
                   <rect width="16" height="16" fill="white"/>
                   </clipPath>
                   </defs>
-                  </svg>
+                </svg>
 
                 Hubungi Sales Representative Kami
               </a>
