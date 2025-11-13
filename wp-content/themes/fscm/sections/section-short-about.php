@@ -22,7 +22,7 @@ if($template && explode(' ', $template)[0] === 'FSCM' || get_post_type() == 'fsc
     <div class="w-full h-4" style="background: linear-gradient(90deg, #FF9191 0%, #E20000 29.81%, #FF9191 76.44%, #FFFFFF 99.52%);"></div> 
   <?php endif; ?>
 
-  <div class="container !max-w-[1400px] py-10 lg:py-20 flex flex-col justify-center items-center gap-6 lg:gap-10">
+  <div class="container !max-w-[1400px] py-10 lg:py-20 flex flex-col justify-center items-center gap-6 lg:gap-12">
     <div class="text-center text-white text-2xl lg:text-3xl font-medium leading-8 lg:leading-10"><?= $section['title'] ?></div>
     <div class="grid w-full grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
       <?php foreach(array_values($section['items']) as $item): ?>
@@ -31,7 +31,7 @@ if($template && explode(' ', $template)[0] === 'FSCM' || get_post_type() == 'fsc
             <?php if($item['image']): ?> 
             <img class="w-40 lg:w-56 h-8 lg:h-12" src="<?php echo get_image_url($item['image'])  ?>" alt="<?= $item['title'] ?? 'image' ?>" />
             <?php else: ?>
-            <div class="flex-1 justify-start font-extrabold text-2xl lg:text-4xl leading-8 lg:leading-[48px]"><?= $item['title'] ?></div>
+            <div class="flex-1 justify-start font-black text-2xl lg:text-[40px] leading-8 whitespace-nowrap lg:leading-[48px]"><?= $item['title'] ?></div>
             <?php endif; ?>
           </div>
           <div class="self-stretch flex justify-start items-start gap-2 lg:gap-3">

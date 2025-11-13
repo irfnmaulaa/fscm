@@ -60,13 +60,13 @@
         <?php if(is_fscm()): ?>
         <div class="logo">
             <a href="<?= get_home_url() ?>">
-                <img src="<?= get_template_directory_uri() . '/img/fscm-logo.svg' ?>" alt="FSCM" class="h-[35px] lg:h-[43px]"> 
+                <img src="<?= get_template_directory_uri() . '/img/fscm-logo.svg' ?>" alt="FSCM" class="h-[35px] lg:h-[40px]"> 
             </a>
         </div>
         <?php elseif(is_eco()): ?>
         <div class="logo">
             <a href="<?= get_home_url() ?>">
-                <img src="<?= get_template_directory_uri() . '/img/eco-logo.svg' ?>" alt="ECO" class="h-[35px] lg:h-[46px]"> 
+                <img src="<?= get_template_directory_uri() . '/img/eco-logo.svg' ?>" alt="ECO" class="h-[35px] lg:h-[40px]"> 
             </a>
         </div>
         <?php else: ?>
@@ -104,8 +104,8 @@
             <nav class="flex text-center lg:text-left lg:flex-row lg:items-center font-semibold lg:justify-end lg:text-[20px] gap-2.5 lg:gap-7 lg:flex-row flex-col p-4 lg:p-0">
                 <a href="<?= get_home_url() . '/about' ?>" class="py-2 lg:py-0">About Us</a>
                 <a href="<?= get_home_url() . '/contact' ?>" class="py-2 lg:py-0">Contact Us</a>
-                <a href="<?= get_home_url() . '/fscm' ?>" class="btn btn-black py-1.5 px-5 lg:ms-3 lg:-me-3 tracking-[0.8px]">FSCM</a>
-                <a href="<?= get_home_url() . '/eco' ?>" class="btn btn-red py-1.5 px-5 tracking-[0.8px]">ECO</a>
+                <a href="<?= get_home_url() . '/fscm' ?>" class="btn btn-black py-1.5 px-3 font-normal lg:ms-3 lg:-me-3 tracking-[0.8px]">FSCM</a>
+                <a href="<?= get_home_url() . '/eco' ?>" class="btn bg-[#EC221F] text-white font-normal py-1.5 px-4 tracking-[0.8px]">ECO</a>
             </nav>
             <?php endif; ?>
 

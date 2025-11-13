@@ -13,7 +13,7 @@
 
 <?php if($section = get_field('our_clients')): ?>
 <div class="w-full">
-  <div class="container py-10 lg:py-20 flex flex-col justify-center text-center items-center gap-5">
+  <div class="container py-10 lg:py-20 flex flex-col justify-center lg:min-h-[390px] text-center items-center gap-5">
     <div class="text-2xl lg:text-[32px] font-semibold leading-8 lg:leading-10"><?= $section['title'] ?></div>
     <div class="text-lg lg:text-[24px] mb-4 lg:mb-8"><?= $section['subtitle'] ?></div>
     <div class="w-full overflow-hidden relative">
@@ -21,14 +21,14 @@
         <!-- Original set -->
         <?php foreach(array_values($section['items']) as $item): ?>
           <?php if($item['logo']): ?>
-          <div class="w-32 lg:w-40 flex-shrink-0">
+          <div class="h-[67px] flex-shrink-0">
             <img class="w-full h-full object-contain" src="<?= get_image_url($item['logo']) ?>" alt="<?= $item['name'] ?>"/>
           </div>
           <?php endif;?>
         <?php endforeach; ?> 
         <?php foreach(array_values($section['items']) as $item): ?>
           <?php if($item['logo']): ?>
-          <div class="w-32 lg:w-40 flex-shrink-0">
+          <div class="h-[67px] flex-shrink-0">
             <img class="w-full h-full object-contain" src="<?= get_image_url($item['logo']) ?>" alt="<?= $item['name'] ?>"/>
           </div>
           <?php endif;?>

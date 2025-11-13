@@ -1,6 +1,6 @@
 <?php $section = get_field('about_2_products') ?>
 <?php if($section): ?>
-<div id="brand-about" class="w-full bg-[#E6E6E6]">
+<div id="brand-about" class="w-full bg-[#E6E6E6] lg:min-h-[542px] flex items-center">
   <div class="container py-10 lg:py-20 flex flex-col justify-center text-center items-center gap-5">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10">
       <?php 

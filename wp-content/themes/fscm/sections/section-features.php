@@ -13,7 +13,7 @@ if(is_eco()) {
 
 <?php $section = get_field('features') ?>
 <?php if($section): ?>
-<div id="features" class="w-full" style="<?= $backgroundColor ?>">
+<div id="features" class="w-full flex items-center lg:min-h-[622px]" style="<?= $backgroundColor ?>">
   <div class="container !max-w-[1320px] px-16 py-8 lg:py-20 flex flex-col justify-center items-center gap-10">
         <div class="grid lg:grid-cols-2 flex justify-start items-center bg-white">
             <img class="w-full h-full" src="<?= get_image_url($section['image']) ?>" />

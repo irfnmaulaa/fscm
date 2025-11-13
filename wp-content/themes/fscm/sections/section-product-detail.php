@@ -3,10 +3,10 @@ $product = get_field('product');
 $content = get_field('product_content');
 ?>
 
-<div class="w-full bg-[#F5F5F5]">
+<div class="w-full bg-[#F5F5F5] lg:min-h-[703px] flex items-center">
   <div class="container !max-w-[1280px] px-16 py-8 lg:py-20 flex flex-col justify-center items-center gap-5 lg:gap-10">
-        <div class="grid lg:grid-cols-2 flex justify-start gap-4 lg:gap-16">
-            <div class="overflow-y-auto max-h-[511px] scrollbar">
+        <div class="grid lg:grid-cols-[532px_520px] flex justify-start gap-4 lg:gap-[4.3rem]">
+            <div class="overflow-y-auto aspect-[532/511] scrollbar">
               <div class="flex flex-col gap-2"> 
                 <?php foreach($product['images'] as $image): ?>
                 <img class="w-full h-full" src="<?= get_image_url($image) ?>" />
@@ -14,11 +14,11 @@ $content = get_field('product_content');
               </div>
             </div>
             
-            <div class="w-full inline-flex flex-col py-3 items-start gap-3 lg:gap-6">
+            <div class="w-full inline-flex flex-col items-start gap-3 lg:gap-6">
               <div class="self-stretch flex flex-col justify-start items-start gap-2 lg:gap-4">
                 <div class="self-stretch flex flex-col justify-start items-start gap-2 lg:gap-4">
                   <div class="self-stretch inline-flex justify-start items-start">
-                    <div class="justify-start text-3xl lg:text-6xl font-bold lg:leading-[76.80px]" style="<?= is_fscm() ? 'color: #1E1E1E' : 'color: #E20000;' ?>"><?= $product['headline'] ?></div>
+                    <div class="justify-start text-3xl lg:text-[64px] font-bold lg:leading-[76.80px]" style="<?= is_fscm() ? 'color: #1E1E1E' : 'color: #E20000;' ?>"><?= $product['headline'] ?></div>
                   </div>
                 </div>
                 <div class="self-stretch inline-flex justify-start items-start">
@@ -61,7 +61,7 @@ $content = get_field('product_content');
 </div>
 
 <div class="w-full relative max-h-[656px] overflow-auto scrollbar" id="content-wrapper"> 
-  <div class="container !max-w-[1280px] px-16 py-8 lg:py-20 single-content flex flex-col gap-5"> 
+  <div class="container !max-w-[1280px] px-16 py-8 lg:py-24 single-content flex flex-col gap-1"> 
 
   <?php foreach(array_values($content['items']) as $i => $item): if($item['title']): ?>
   <div class="w-full">
@@ -93,8 +93,8 @@ $content = get_field('product_content');
   </div>
 </div>
 
-<div class="w-full relative bg-[#F5F5F5]"> 
-  <div class="container !max-w-[1280px] px-16 py-8 lg:py-20 flex flex-col justify-center items-center gap-5 lg:gap-10"> 
+<div class="w-full relative bg-[#F5F5F5] flex items-center lg:min-h-[751px]"> 
+  <div class="container !max-w-[1280px] px-16 py-8 lg:py-20 flex flex-col justify-center items-center gap-5 lg:gap-12"> 
 
     <div class="text-center text-xl lg:text-3xl font-semibold leading-10">Lihat Produk Lainnya</div>
 
@@ -108,12 +108,12 @@ $content = get_field('product_content');
         'post__not_in'   => [get_the_ID()],
       ]);
       foreach ($products as $product) : ?>
-        <?php get_template_part('sections/section', 'product-item', ['product' => $product]) ?>
+        <?php get_template_part('sections/section', 'product-item', ['product' => $product, 'aspect' => 'aspect-ratio: 276/247;']) ?>
       <?php endforeach; ?>
     </div>
 
-    <div class="flex justify-center items-center gap-4 mt-3">
-        <a href="<?= site_url(is_fscm() ? '/fscm-products' : '/eco-products') ?>" class="btn <?= is_fscm() ? 'btn-black' : 'btn-red' ?> px-24 py-2 inline-flex gap-2 justify-center items-center">  
+    <div class="flex justify-center items-center gap-4">
+        <a href="<?= site_url(is_fscm() ? '/fscm-products' : '/eco-products') ?>" class="btn <?= is_fscm() ? 'btn-black' : 'btn-red' ?> px-24 py-2 inline-flex gap-2 justify-center items-center text-[20px]">  
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M14 14L11.1 11.1M12.6667 7.33333C12.6667 10.2789 10.2789 12.6667 7.33333 12.6667C4.38781 12.6667 2 10.2789 2 7.33333C2 4.38781 4.38781 2 7.33333 2C10.2789 2 12.6667 4.38781 12.6667 7.33333Z" stroke="#EBFFEE" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>

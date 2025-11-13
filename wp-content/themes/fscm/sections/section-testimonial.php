@@ -1,12 +1,12 @@
 <?php $section = get_field('testimonial') ?>
 <?php if($section): ?>
-<div id="testimonial" class="w-full relative">
+<div id="testimonial" class="w-full relative flex items-center lg:min-h-[582px]">
     
 <?php if(is_fscm()): ?>
-  <div class="w-[100px] md:w-[150px] lg:w-[200px] aspect-[1/1] absolute right-0 bottom-0" style="background: linear-gradient(180deg, #E20000 -5.01%, #FF9191 107.14%); clip-path: polygon(100% 0, 0% 100%, 100% 100%);"></div>
+  <div class="w-[100px] md:w-[150px] lg:w-[200px] aspect-[1/1] absolute right-0 bottom-0" style="background: linear-gradient(180deg, #FF9191 -5.01%, #E20000 107.14%); clip-path: polygon(100% 0, 0% 100%, 100% 100%);"></div>
 <?php endif;?>
 
-  <div class="container !max-w-[1280px] py-8 lg:py-20 flex flex-col justify-center items-center gap-10">
+  <div class="container !max-w-[1280px] py-8 lg:py-20 flex flex-col justify-center items-center gap-5 lg:gap-12">
     <div class="text-center text-3xl font-semibold leading-10"><?= $section['title'] ?></div>
 
     <div class="grid lg:grid-cols-3 gap-3 lg:gap-8">
