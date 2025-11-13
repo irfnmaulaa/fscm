@@ -96,7 +96,7 @@ $content = get_field('product_content');
 <div class="w-full relative bg-[#F5F5F5] flex items-center lg:min-h-[751px]"> 
   <div class="container !max-w-[1280px] px-16 py-8 lg:py-20 flex flex-col justify-center items-center gap-5 lg:gap-12"> 
 
-    <div class="text-center text-xl lg:text-3xl font-semibold leading-10">Lihat Produk Lainnya</div>
+    <div class="text-center text-xl lg:text-[32px] font-semibold leading-10">Lihat Produk Lainnya</div>
 
     <div class="grid grid-cols-2 lg:grid-cols-4 w-full gap-3 lg:gap-6">
       <?php
