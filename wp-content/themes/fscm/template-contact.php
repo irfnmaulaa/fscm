@@ -46,7 +46,7 @@
         <div class="w-full p-[2px]" style="background: linear-gradient(305.49deg, #434343 0%, #D9D9D9 55.77%, #737373 100%);">
             <div class="w-full p-6 bg-white h-full inline-flex justify-start items-start gap-6 flex-wrap content-start">
                 <div class="flex-1 inline-flex flex-col justify-start items-start gap-6">
-                    <div class="self-stretch justify-start text-Text-Default-Default text-lg font-normal leading-6"><?= $section['title'] ?></div>
+                    <div class="self-stretch justify-start text-Text-Default-Default text-lg font-normal leading-6 whitespace-pre-line"><?= $section['title'] ?></div>
                     <?php foreach(array_values($section['items']) as $i => $item): ?>
                     <div class="self-stretch flex flex-col justify-start items-start gap-2">
                         <div class="self-stretch justify-start text-Text-Default-Default text-[32px] font-semibold leading-10"><?= $item['title'] ?></div>

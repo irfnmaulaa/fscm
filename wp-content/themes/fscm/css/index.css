@@ -1278,6 +1278,10 @@ video {
   white-space: nowrap;
 }
 
+.whitespace-pre-line{
+  white-space: pre-line;
+}
+
 .rounded-\[15px\]{
   border-radius: 15px;
 }
