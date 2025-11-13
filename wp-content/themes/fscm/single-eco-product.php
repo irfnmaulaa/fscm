@@ -25,7 +25,7 @@
                 </div>
               </div>
               
-              <a href="#" class="py-1.5 px-5 bg-[#E20000] w-full text-white flex justify-center items-center gap-2">
+              <a href="#" class="btn btn-red py-1.5 px-5 bg-[#E20000] w-full text-white flex justify-center items-center gap-2">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_760_1440)">
                   <path d="M10.0336 3.33366C10.6848 3.4607 11.2832 3.77916 11.7523 4.24828C12.2214 4.7174 12.5399 5.31584 12.6669 5.96699M10.0336 0.666992C11.3865 0.817283 12.648 1.42311 13.6111 2.385C14.5742 3.34689 15.1816 4.60767 15.3336 5.96032M14.6669 11.2803V13.2803C14.6677 13.466 14.6297 13.6498 14.5553 13.8199C14.4809 13.99 14.3718 14.1427 14.235 14.2682C14.0982 14.3938 13.9367 14.4893 13.7608 14.5488C13.5849 14.6083 13.3985 14.6304 13.2136 14.6137C11.1622 14.3908 9.19161 13.6898 7.46028 12.567C5.8495 11.5434 4.48384 10.1778 3.46028 8.56699C2.3336 6.82779 1.63244 4.84765 1.41361 2.78699C1.39695 2.60264 1.41886 2.41683 1.47795 2.24141C1.53703 2.06598 1.63199 1.90478 1.75679 1.76807C1.88159 1.63136 2.03348 1.52213 2.20281 1.44734C2.37213 1.37255 2.55517 1.33383 2.74028 1.33366H4.74028C5.06382 1.33047 5.37748 1.44504 5.62279 1.65601C5.8681 1.86698 6.02833 2.15996 6.07361 2.48033C6.15803 3.12037 6.31458 3.74881 6.54028 4.35366C6.62998 4.59227 6.64939 4.8516 6.59622 5.10091C6.54305 5.35022 6.41952 5.57907 6.24028 5.76033L5.39361 6.60699C6.34265 8.27602 7.72458 9.65795 9.39361 10.607L10.2403 9.76033C10.4215 9.58108 10.6504 9.45756 10.8997 9.40439C11.149 9.35122 11.4083 9.37063 11.6469 9.46032C12.2518 9.68602 12.8802 9.84258 13.5203 9.92699C13.8441 9.97268 14.1399 10.1358 14.3513 10.3853C14.5627 10.6348 14.6751 10.9534 14.6669 11.2803Z" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -41,16 +41,16 @@
               </a>
 
               <div class="border border-[#D9D9D9] bg-white">
-                    <input type="checkbox" checked id="accordion-1" class="peer hidden">    
+                    <input type="checkbox" checked id="accordion-1" class="peer hidden accordion-checkbox">    
                     <label for="accordion-1" class="flex justify-between px-4 py-2 items-center cursor-pointer hover:bg-gray-100">
-                        <div>Spesifikasi Produk</div>
-                        <div class="transition-transform duration-300 rotate-180">
+                        <div cl >Spesifikasi Produk</div>
+                        <div class="transition-transform duration-300 rotate-180 accordion-icon">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M15 12.5L10 7.5L5 12.5" stroke="var(--Icon-Default-Default, #E20000)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </div>
                     </label>
-                    <div class="single-content max-h-0 px-4 text-[14px] leading-[1.6] peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-[700px] py-2">
+                    <div class="single-content max-h-0 px-4 text-[14px] leading-[1.6] peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-[700px] peer-checked:my-2">
                         V-Belt adalah komponen utama pada sistem transmisi motor matic yang berfungsi menghubungkan putaran mesin ke roda belakang.
                         Produk V-Belt dari FASTRA dan FSCM dirancang dengan material elastomer berkualitas tinggi, memberikan fleksibilitas dan daya tahan optimal untuk penggunaan harian maupun intensif.
                         <ul>

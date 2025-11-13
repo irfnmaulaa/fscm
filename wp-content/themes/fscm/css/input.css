@@ -76,3 +76,7 @@ a:not(.btn) {
 .btn-black:hover * {
     @apply stroke-[#fff];
 }
+
+.accordion-checkbox:checked ~ label .accordion-icon {
+    @apply rotate-0;
+}

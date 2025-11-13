@@ -39,61 +39,61 @@
                     <div class="self-stretch justify-start text-stone-900 text-3xl font-semibold leading-10">Sejarah Kami</div>
                     
                     <div class="border border-[#D9D9D9]">
-                        <input type="checkbox" checked id="accordion-1" class="peer hidden">    
+                        <input type="checkbox" checked id="accordion-1" class="peer hidden accordion-checkbox">    
                         <label for="accordion-1" class="flex justify-between text-[24px] px-4 py-2 items-center cursor-pointer hover:bg-gray-100">
                             <div>1983</div>
-                            <div class="transition-transform duration-300 rotate-180">
+                            <div class="transition-transform duration-300 rotate-180 accordion-icon">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M15 12.5L10 7.5L5 12.5" stroke="var(--Icon-Default-Default, #1E1E1E)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
                         </label>
-                        <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40">
+                        <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40 peer-checked:my-2">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </div>
                     </div>
 
                     <div class="border border-[#D9D9D9]">
-                        <input type="checkbox" id="accordion-2" class="peer hidden">    
+                        <input type="checkbox" id="accordion-2" class="peer hidden accordion-checkbox">    
                         <label for="accordion-2" class="flex justify-between text-[24px] px-4 py-2 items-center cursor-pointer hover:bg-gray-100">
                             <div>1990</div>
-                            <div class="transition-transform duration-300 rotate-180">
+                            <div class="transition-transform duration-300 rotate-180 accordion-icon">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M15 12.5L10 7.5L5 12.5" stroke="var(--Icon-Default-Default, #1E1E1E)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
                         </label>
-                        <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40">
+                        <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40 peer-checked:my-2">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </div>
                     </div>
 
                     <div class="border border-[#D9D9D9]">
-                        <input type="checkbox" id="accordion-3" class="peer hidden">    
+                        <input type="checkbox" id="accordion-3" class="peer hidden accordion-checkbox">    
                         <label for="accordion-3" class="flex justify-between text-[24px] px-4 py-2 items-center cursor-pointer hover:bg-gray-100">
                             <div>2005</div>
-                            <div class="transition-transform duration-300 rotate-180">
+                            <div class="transition-transform duration-300 rotate-180 accordion-icon">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M15 12.5L10 7.5L5 12.5" stroke="var(--Icon-Default-Default, #1E1E1E)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
                         </label>
-                        <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40">
+                        <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40 peer-checked:my-2">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </div>
                     </div>
 
                     <div class="border border-[#D9D9D9]">
-                        <input type="checkbox" id="accordion-4" class="peer hidden">    
+                        <input type="checkbox" id="accordion-4" class="peer hidden accordion-checkbox">    
                         <label for="accordion-4" class="flex justify-between text-[24px] px-4 py-2 items-center cursor-pointer hover:bg-gray-100">
                             <div>2023</div>
-                            <div class="transition-transform duration-300 rotate-180">
+                            <div class="transition-transform duration-300 rotate-180 accordion-icon">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M15 12.5L10 7.5L5 12.5" stroke="var(--Icon-Default-Default, #1E1E1E)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
                         </label>
-                        <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40">
+                        <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40 peer-checked:my-2">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </div>
                     </div>

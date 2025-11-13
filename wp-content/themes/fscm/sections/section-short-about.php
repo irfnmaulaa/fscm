@@ -20,7 +20,7 @@
         </div>
         <div class="self-stretch flex justify-start items-start gap-2 lg:gap-3">
           <div class="flex-1 flex flex-col justify-start items-start gap-0.5">
-            <div class="self-stretch justify-center text-[#757575] text-sm lg:text-base font-semibold leading-5 lg:leading-6">Mechanics & Authorized Workshops Recommend Us</div>
+            <div class="self-stretch justify-center text-[#757575] text-sm lg:text-base font-semibold leading-5 lg:leading-6">Years Of Being Trusted by Leading Automotive Manufactures</div>
           </div>
         </div>
       </div>

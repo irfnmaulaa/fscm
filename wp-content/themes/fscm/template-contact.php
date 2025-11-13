@@ -64,16 +64,16 @@
                 <div class="self-stretch justify-start text-stone-900 text-3xl font-semibold leading-10 text-center ">Temukan Sparepart Kami Melalui Dealer Resmi</div>
                 
                 <div class="border border-[#D9D9D9] w-full">
-                    <input type="checkbox" checked id="accordion-0" class="peer hidden">    
+                    <input type="checkbox" checked id="accordion-0" class="peer hidden accordion-checkbox">    
                     <label for="accordion-0" class="flex justify-between text-[24px] px-4 py-2 items-center cursor-pointer hover:bg-gray-100">
                         <div>Jawa - Bali</div>
-                        <div class="transition-transform duration-300 rotate-180">
+                        <div class="accordion-icon transition-transform duration-300 rotate-180">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M15 12.5L10 7.5L5 12.5" stroke="var(--Icon-Default-Default, #1E1E1E)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </div>
                     </label>
-                    <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40 text-left py-2">
+                    <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40 text-left peer-checked:my-2">
                         <ol class="list-decimal list-inside ms-3">
                             <li>PT Lorem ipsum dolor - Jawa Barat</li>
                             <li>PT Lorem ipsum dolor - Jawa Barat</li>
@@ -86,16 +86,16 @@
                 </div>
                 
                 <div class="border border-[#D9D9D9] w-full">
-                    <input type="checkbox" checked id="accordion-1" class="peer hidden">    
+                    <input type="checkbox" id="accordion-1" class="peer hidden accordion-checkbox">    
                     <label for="accordion-1" class="flex justify-between text-[24px] px-4 py-2 items-center cursor-pointer hover:bg-gray-100">
                         <div>Suamtera</div>
-                        <div class="transition-transform duration-300 rotate-180">
+                        <div class="accordion-icon transition-transform duration-300 rotate-180">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M15 12.5L10 7.5L5 12.5" stroke="var(--Icon-Default-Default, #1E1E1E)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </div>
                     </label>
-                    <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40 text-left py-2">
+                    <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40 text-left peer-checked:my-2">
                         <ol class="list-decimal list-inside ms-3">
                             <li>PT Lorem ipsum dolor - Jawa Barat</li>
                             <li>PT Lorem ipsum dolor - Jawa Barat</li>
@@ -108,16 +108,16 @@
                 </div>
 
                 <div class="border border-[#D9D9D9] w-full">
-                    <input type="checkbox" checked id="accordion-2" class="peer hidden">    
+                    <input type="checkbox" id="accordion-2" class="peer hidden accordion-checkbox">    
                     <label for="accordion-2" class="flex justify-between text-[24px] px-4 py-2 items-center cursor-pointer hover:bg-gray-100">
                         <div>Kalimantan</div>
-                        <div class="transition-transform duration-300 rotate-180">
+                        <div class="accordion-icon transition-transform duration-300 rotate-180">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M15 12.5L10 7.5L5 12.5" stroke="var(--Icon-Default-Default, #1E1E1E)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </div>
                     </label>
-                    <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40 text-left py-2">
+                    <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40 text-left peer-checked:my-2">
                         <ol class="list-decimal list-inside ms-3">
                             <li>PT Lorem ipsum dolor - Jawa Barat</li>
                             <li>PT Lorem ipsum dolor - Jawa Barat</li>
@@ -130,16 +130,16 @@
                 </div>
 
                 <div class="border border-[#D9D9D9] w-full">
-                    <input type="checkbox" checked id="accordion-3" class="peer hidden">    
+                    <input type="checkbox" id="accordion-3" class="peer hidden accordion-checkbox">    
                     <label for="accordion-3" class="flex justify-between text-[24px] px-4 py-2 items-center cursor-pointer hover:bg-gray-100">
                         <div>Sulawesi</div>
-                        <div class="transition-transform duration-300 rotate-180">
+                        <div class="accordion-icon transition-transform duration-300 rotate-180">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M15 12.5L10 7.5L5 12.5" stroke="var(--Icon-Default-Default, #1E1E1E)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </div>
                     </label>
-                    <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40 text-left py-2">
+                    <div class="max-h-0 px-4 peer-checked:pb-2 overflow-hidden transition-all duration-300 peer-checked:max-h-40 text-left peer-checked:my-2">
                         <ol class="list-decimal list-inside ms-3">
                             <li>PT Lorem ipsum dolor - Jawa Barat</li>
                             <li>PT Lorem ipsum dolor - Jawa Barat</li>
