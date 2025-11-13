@@ -13,7 +13,7 @@ if($template && explode(' ', $template)[0] === 'FSCM' || get_post_type() == 'fsc
 
 <?php $section = get_field('short_about') ?>
 <?php if($section): ?>
-<div class="w-full" style="<?= $background; ?>" id="about">
+<div class="w-full flex flex-col items-center lg:min-h-[419px]" style="<?= $background; ?>" id="about">
   <?php if(is_fscm()): ?>
     <div class="w-full h-4" style="background: linear-gradient(90deg, #FF9191 0%, #E20000 29.81%, #FF9191 76.44%, #FFFFFF 99.52%);"></div> 
   <?php elseif(is_eco()): ?>
@@ -22,9 +22,9 @@ if($template && explode(' ', $template)[0] === 'FSCM' || get_post_type() == 'fsc
     <div class="w-full h-4" style="background: linear-gradient(90deg, #FF9191 0%, #E20000 29.81%, #FF9191 76.44%, #FFFFFF 99.52%);"></div> 
   <?php endif; ?>
 
-  <div class="container !max-w-[1400px] py-10 lg:py-20 flex flex-col justify-center items-center gap-6 lg:gap-12">
-    <div class="text-center text-white text-2xl lg:text-3xl font-medium leading-8 lg:leading-10"><?= $section['title'] ?></div>
-    <div class="grid w-full grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
+  <div class="container !max-w-[1400px] w-full py-10 lg:py-20 flex flex-col justify-center items-center gap-6 lg:gap-12">
+    <div class="text-center text-white -mt-4 text-2xl lg:text-3xl font-medium leading-8 lg:leading-10"><?= $section['title'] ?></div>
+    <div class="grid w-full grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-4">
       <?php foreach(array_values($section['items']) as $item): ?>
         <div class="p-4 lg:p-6 bg-white flex flex-col justify-start items-start gap-3 lg:gap-4">
           <div class="w-full lg:w-48 justify-start items-start">
