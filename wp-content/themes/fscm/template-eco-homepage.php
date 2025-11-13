@@ -112,17 +112,19 @@
                 <div class="self-stretch inline-flex justify-start items-start">
                     <div class="flex-1 text-center justify-start text-Text-Default-Default text-3xl font-semibold leading-10">Pasti Pas, Nggak Bikin Worry</div>
                 </div>
-                <div class="self-stretch text-center justify-start text-Text-Default-Default text-2xl font-normal leading-7">eco SafeGuard Warranty</div>
+                <div class="self-stretch text-center justify-start text-Text-Default-Default text-2xl font-normal leading-7">Eco SafeGuard Warranty</div>
                 <div class="w-full lg:w-[488px] text-center justify-center text-Text-Default-Default text-base font-normal leading-6">Dirancang dengan standar OEM dan teknologi terkini, produk eco dijamin pas di kendaraanmu dan tahan di segala kondisi.</div>
                 </div>
                 <div class="self-stretch text-white inline-flex flex-col lg:flex-row justify-start items-start gap-4">
                     <div class="w-full lg:w-56 p-3 bg-[#871616] inline-flex flex-col justify-center items-center gap-2 overflow-hidden">
-                        <div class="justify-start text-Text-Brand-On-Brand text-base font-semibold leading-6">Rusak? FREE 2x Ganti*</div>
-                        <div class="self-stretch text-center justify-start"><span class="text-Text-Brand-On-Brand text-base font-normal leading-6">Extra tenang dengan garansi FREE ganti 2pcs untuk produk rantai yang rusak akibat cacat produksi atau kegagalan material.<br/></span><span class="text-Text-Brand-On-Brand text-sm font-normal leading-5">*Berlaku untuk produk rantai</span></div>
+                        <div class="justify-start text-white text-normal font-semibold leading-6">Rusak? FREE 2x Ganti*</div>
+                        <div class="self-stretch text-center justify-start text-white text-normal font-normal leading-6">Extra tenang dengan garansi FREE ganti 2pcs untuk produk rantai yang rusak akibat cacat produksi atau kegagalan material.</div>
+                        <div class="text-center justify-start text-white text-xs font-normal leading-5">*Berlaku untuk produk rantai</div>
                     </div>
                     <div class="flex-1 p-3 bg-[#871616] inline-flex flex-col justify-center items-center gap-2 overflow-hidden">
-                        <div class="self-stretch text-center justify-start text-Text-Brand-On-Brand text-base font-semibold leading-6">100% Pasti Pas atau Tukar Gratis**</div>
-                        <div class="self-stretch text-center justify-start"><span class="text-Text-Brand-On-Brand text-base font-normal leading-6">Semua produk kami dijamin memiliki presisi tinggi dan kompatibel untuk kendaraan kesayanganmu. <br/>Tidak pas? bebas ganti tanpa <br/>biaya tambahan.<br/></span><span class="text-Text-Brand-On-Brand text-sm font-normal leading-5">*Berlaku untuk produk rantai</span></div>
+                        <div class="self-stretch text-center justify-start text-white text-normal font-semibold leading-6">100% Pasti Pas atau Tukar Gratis**</div>
+                        <div class="self-stretch text-center justify-start text-white text-normal font-normal leading-6">Semua produk kami dijamin memiliki presisi tinggi dan kompatibel untuk kendaraan kesayanganmu. Tidak pas? bebas ganti tanpa biaya tambahan.</div>
+                        <div class="text-center justify-start text-white text-xs font-normal leading-5">*Berlaku untuk produk rantai</div>
                     </div>
                 </div>
             </div>
