@@ -122,12 +122,12 @@
                     <div class="w-full lg:w-56 p-3 bg-zinc-800 inline-flex flex-col justify-center items-center gap-2 overflow-hidden">
                         <div class="justify-start text-white text-normal font-semibold leading-6">Rusak? FREE 2x Ganti*</div>
                         <div class="self-stretch text-center justify-start text-white text-normal font-light leading-6">Extra tenang dengan garansi FREE ganti 2pcs untuk produk rantai yang rusak akibat cacat produksi atau kegagalan material.</div>
-                        <div class="text-white text-xs font-light italic leading-5">*Berlaku untuk produk rantai</div>
+                        <div class="text-white text-xs font-light italic leading-5">* Berlaku untuk produk rantai</div>
                     </div>
                     <div class="flex-1 p-3 bg-zinc-800 inline-flex flex-col justify-center items-center gap-2 overflow-hidden">
                         <div class="self-stretch text-center justify-start text-white text-normal font-semibold leading-6">100% Pasti Pas atau Tukar Gratis**</div>
                         <div class="self-stretch text-center justify-start text-white text-normal font-light leading-6">Semua produk kami dijamin memiliki presisi tinggi dan kompatibel untuk kendaraan kesayanganmu. <br/> Tidak pas? bebas ganti tanpa biaya tambahan.</div>
-                        <div class="text-white text-xs font-light italic leading-5">*Berlaku untuk produk rantai</div>
+                        <div class="text-white text-xs font-light italic leading-5">** Berlaku untuk semua produk.</div>
                     </div>
                 </div>
             </div>
