@@ -69,7 +69,7 @@ $content = get_field('product_content');
     <label for="content-<?= $i + 1 ?>" class="content-item-label flex justify-between text-lg lg:text-[24px] px-4 py-2 items-center cursor-pointer" style="<?= is_fscm() ? 'background: #D9D9D9' : 'background: #FF9191' ?>">
         <div><?= $item['title'] ?></div>
         <div class="transition-transform duration-300 rotate-180 accordion-icon">
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M15 12.5L10 7.5L5 12.5" stroke="var(--Icon-Default-Default, #1E1E1E)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
         </div>

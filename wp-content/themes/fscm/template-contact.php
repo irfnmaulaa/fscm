@@ -60,7 +60,7 @@
     </div>
 
     <?php if($section = get_field('dealer')): ?>
-    <div class="container flex justify-center pb-20 ">
+    <div class="container flex justify-center pt-5 pb-20 ">
         <div class="w-full mx-auto !max-w-[720px] bg-white inline-flex justify-start items-start gap-6 flex-wrap content-start">
             <div class="flex-1 inline-flex flex-col justify-start items-start gap-5 lg:gap-6">
                 <div class="self-stretch justify-start text-stone-900 text-3xl font-semibold leading-10 text-center lg:whitespace-pre-line mb-5"><?= $section['title'] ?></div>

@@ -14,7 +14,7 @@
 <?php if($section = get_field('our_clients')): ?>
 <div class="w-full">
   <div class="container py-10 lg:py-20 flex flex-col justify-center lg:min-h-[390px] text-center items-center gap-5">
-    <div class="text-2xl lg:text-[32px] font-semibold leading-8 lg:leading-10"><?= $section['title'] ?></div>
+    <div class="text-2xl lg:text-[32px] font-semibold leading-8 lg:leading-10 -mb-1"><?= $section['title'] ?></div>
     <div class="text-lg lg:text-[24px] mb-4 lg:mb-8"><?= $section['subtitle'] ?></div>
     <div class="w-full overflow-hidden relative">
       <div id="clients-marquee" class="flex gap-6 lg:gap-14 whitespace-nowrap will-change-transform">
