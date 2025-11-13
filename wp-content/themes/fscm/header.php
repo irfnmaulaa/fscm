@@ -50,27 +50,32 @@
 <div id="content">
 <?php endif; ?>
 
-<main>
+<main> 
 
-<!-- <script>
-    window.addEventListener('load', function() {
-        const loader = document.getElementById('loader');
-        if (loader) {
-            loader.style.opacity = '0';
-            loader.style.transition = 'opacity 0.5s ease';
-            setTimeout(() => loader.remove(), 500);
-        }
-    });
-</script> -->
-
+<?php $template = get_current_template_name();  ?>
 
 <header class="w-full h-[80px] lg:h-[99px] border-b border-[#D9D9D9] sticky top-0 bg-white z-50">
     <div class="container h-full flex items-center justify-between">
+        
+        <?php if(is_fscm()): ?>
         <div class="logo">
             <a href="<?= get_home_url() ?>">
-                <img src="<?= get_template_directory_uri() . '/img/logo.svg' ?>" alt="FSCM" class="h-[35px] lg:h-[48px]">
+                <img src="<?= get_template_directory_uri() . '/img/fscm-logo.svg' ?>" alt="FSCM" class="h-[35px] lg:h-[43px]"> 
             </a>
         </div>
+        <?php elseif(is_eco()): ?>
+        <div class="logo">
+            <a href="<?= get_home_url() ?>">
+                <img src="<?= get_template_directory_uri() . '/img/eco-logo.svg' ?>" alt="ECO" class="h-[35px] lg:h-[46px]"> 
+            </a>
+        </div>
+        <?php else: ?>
+        <div class="logo">
+            <a href="<?= get_home_url() ?>">
+                <img src="<?= get_template_directory_uri() . '/img/logo.svg' ?>" alt="FSCM" class="h-[35px] lg:h-[40px]"> 
+            </a>
+        </div>
+        <?php endif; ?>
 
         <!-- Mobile toggle button -->
         <button id="nav-toggle" class="lg:hidden flex flex-col gap-1.5 focus:outline-none">
@@ -81,12 +86,30 @@
 
         <!-- Navigation links -->
          <div id="nav-menu" class="hidden lg:flex absolute lg:relative top-full lg:top-0 left-0 w-full lg:w-auto bg-white lg:bg-transparent border-t lg:border-t-0 border-[#D9D9D9]">
-            <nav class="flex text-center lg:text-left lg:flex-row lg:items-center font-bold lg:justify-end lg:text-[20px] gap-2.5 lg:gap-7 lg:flex-row flex-col p-4 lg:p-0">
+            <?php if(is_fscm()): ?>
+            <nav class="flex text-center lg:text-left lg:flex-row lg:items-center lg:justify-end lg:text-[20px] gap-2.5 lg:gap-7 lg:flex-row flex-col p-4 lg:p-0">
+                <a href="<?= get_home_url() . '/fscm#about' ?>" class="py-2 lg:py-0">About FSCM</a>
+                <a href="<?= get_home_url() . '/fscm#products' ?>" class="py-2 lg:py-0">Our Products</a>
+                <a href="<?= get_home_url() . '/fscm#testimonial' ?>" class="py-2 lg:py-0">Testimonial</a> 
+                <a href="<?= get_home_url() . '/fscm-products' ?>" class="btn btn-black py-1.5 px-5 tracking-[0.8px]">Find My Parts</a>
+            </nav>
+            <?php elseif(is_eco()): ?>
+            <nav class="flex text-center lg:text-left lg:flex-row lg:items-center lg:justify-end lg:text-[20px] gap-2.5 lg:gap-7 lg:flex-row flex-col p-4 lg:p-0">
+                <a href="<?= get_home_url() . '/eco#about' ?>" class="py-2 lg:py-0">About ECO</a>
+                <a href="<?= get_home_url() . '/eco#products' ?>" class="py-2 lg:py-0">Our Products</a>
+                <a href="<?= get_home_url() . '/eco#testimonial' ?>" class="py-2 lg:py-0">Testimonial</a> 
+                <a href="<?= get_home_url() . '/eco-products' ?>" class="btn btn-red py-1.5 px-5 tracking-[0.8px]">Find My Parts</a>
+            </nav>
+            <?php else: ?>
+            <nav class="flex text-center lg:text-left lg:flex-row lg:items-center font-semibold lg:justify-end lg:text-[20px] gap-2.5 lg:gap-7 lg:flex-row flex-col p-4 lg:p-0">
                 <a href="<?= get_home_url() . '/about' ?>" class="py-2 lg:py-0">About Us</a>
                 <a href="<?= get_home_url() . '/contact' ?>" class="py-2 lg:py-0">Contact Us</a>
-                <a href="<?= get_home_url() . '/fscm' ?>" class="btn btn-black py-1.5 px-5 bg-[#1E1E1E] text-white lg:ms-3 lg:-me-3 tracking-[0.8px]">FSCM</a>
-                <a href="<?= get_home_url() . '/eco' ?>" class="btn btn-red py-1.5 px-5 bg-[#EC221F] text-white tracking-[0.8px]">ECO</a>
+                <a href="<?= get_home_url() . '/fscm' ?>" class="btn btn-black py-1.5 px-5 lg:ms-3 lg:-me-3 tracking-[0.8px]">FSCM</a>
+                <a href="<?= get_home_url() . '/eco' ?>" class="btn btn-red py-1.5 px-5 tracking-[0.8px]">ECO</a>
             </nav>
+            <?php endif; ?>
+
+            
          </div>
     </div>
 </header>
@@ -97,3 +120,4 @@
         menu.classList.toggle('hidden');
     });
 </script>
+

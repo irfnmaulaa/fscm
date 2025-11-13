@@ -11,44 +11,28 @@
 
 <?php get_template_part('sections/section', 'short-about'); ?>
 
+<?php if($section = get_field('our_clients')): ?>
 <div class="w-full">
   <div class="container py-10 lg:py-20 flex flex-col justify-center text-center items-center gap-5">
-    <div class="text-2xl lg:text-[32px] font-semibold leading-8 lg:leading-10">Our Clients</div>
-    <div class="text-lg lg:text-[24px] mb-4 lg:mb-8">Supplying precision parts to top automotive brands for over 40 years</div>
+    <div class="text-2xl lg:text-[32px] font-semibold leading-8 lg:leading-10"><?= $section['title'] ?></div>
+    <div class="text-lg lg:text-[24px] mb-4 lg:mb-8"><?= $section['subtitle'] ?></div>
     <div class="w-full overflow-hidden relative">
       <div id="clients-marquee" class="flex gap-6 lg:gap-14 whitespace-nowrap will-change-transform">
         <!-- Original set -->
-        <div class="w-32 lg:w-40 flex-shrink-0">
-          <img class="w-full h-full object-contain" src="<?= get_template_directory_uri() . '/img/honda.webp' ?>" />
-        </div>
-        <div class="w-32 lg:w-40 flex-shrink-0">
-          <img class="w-full h-full object-contain" src="<?= get_template_directory_uri() . '/img/yamaha.webp' ?>" />
-        </div>
-        <div class="w-32 lg:w-40 flex-shrink-0">
-          <img class="w-full h-full object-contain" src="<?= get_template_directory_uri() . '/img/kawasaki.webp' ?>" />
-        </div>
-        <div class="w-32 lg:w-40 flex-shrink-0">
-          <img class="w-full h-full object-contain" src="<?= get_template_directory_uri() . '/img/suzuki.webp' ?>" />
-        </div>
-        <div class="w-32 lg:w-40 flex-shrink-0">
-          <img class="w-full h-full object-contain" src="<?= get_template_directory_uri() . '/img/daihatsu.webp' ?>" />
-        </div>
-        <!-- Duplicate set for seamless loop -->
-        <div class="w-32 lg:w-40 flex-shrink-0">
-          <img class="w-full h-full object-contain" src="<?= get_template_directory_uri() . '/img/honda.webp' ?>" />
-        </div>
-        <div class="w-32 lg:w-40 flex-shrink-0">
-          <img class="w-full h-full object-contain" src="<?= get_template_directory_uri() . '/img/yamaha.webp' ?>" />
-        </div>
-        <div class="w-32 lg:w-40 flex-shrink-0">
-          <img class="w-full h-full object-contain" src="<?= get_template_directory_uri() . '/img/kawasaki.webp' ?>" />
-        </div>
-        <div class="w-32 lg:w-40 flex-shrink-0">
-          <img class="w-full h-full object-contain" src="<?= get_template_directory_uri() . '/img/suzuki.webp' ?>" />
-        </div>
-        <div class="w-32 lg:w-40 flex-shrink-0">
-          <img class="w-full h-full object-contain" src="<?= get_template_directory_uri() . '/img/daihatsu.webp' ?>" />
-        </div>
+        <?php foreach(array_values($section['items']) as $item): ?>
+          <?php if($item['logo']): ?>
+          <div class="w-32 lg:w-40 flex-shrink-0">
+            <img class="w-full h-full object-contain" src="<?= get_image_url($item['logo']) ?>" alt="<?= $item['name'] ?>"/>
+          </div>
+          <?php endif;?>
+        <?php endforeach; ?> 
+        <?php foreach(array_values($section['items']) as $item): ?>
+          <?php if($item['logo']): ?>
+          <div class="w-32 lg:w-40 flex-shrink-0">
+            <img class="w-full h-full object-contain" src="<?= get_image_url($item['logo']) ?>" alt="<?= $item['name'] ?>"/>
+          </div>
+          <?php endif;?>
+        <?php endforeach; ?>
       </div>
       <script>
         (function(){
@@ -71,6 +55,7 @@
     </div>
   </div>
 </div>
+<?php endif; ?>
 
 <?php get_template_part('sections/section', name: 'brand-about'); ?>
 

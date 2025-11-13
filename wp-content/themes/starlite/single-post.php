@@ -15,7 +15,7 @@ if ($lang === 'id') {
     <div class="container container-fluid">
         <div class="relative min-h-[570px] lg:min-h-[800px]">
             <div class="hero-bg absolute left-0 top-0 w-full h-full rounded-[20px]" style="background: url(<?php echo $data['thumbnail']['url'] ?? $data['thumbnail'] ?>), linear-gradient(98deg, rgba(0, 0, 0, 0.4) 33.26%, rgba(0, 0, 0, 0.2) 97.02%); background-blend-mode: multiply; background-position:center; background-size: cover;"></div>
-            <div class="container v-stack !gap-8 !lg:gap-6 justify-between py-20 relative z-2 min-h-[570px] lg:min-h-[800px]">
+            <div class="container v-stack !gap-8 !lg:gap-6 justify-between py-8 lg:py-20 relative z-2 min-h-[570px] lg:min-h-[800px]">
                 <div>
                     <?php if($previous_page = get_locale_page('news')): ?>
                         <a href="<?php echo get_the_permalink($previous_page->ID); ?>" class="btn inline-flex items-center gap-4 text-[14px] lg:text-[18px] text-white lg:mt-5 group">

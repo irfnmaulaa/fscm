@@ -428,3 +428,24 @@ function get_page_url_by_lang($slug, $lang, $default_url = '')
 
     return $default_url;
 }
+
+function get_image_url($image) {
+    return is_numeric($image) ? wp_get_attachment_url($image) : ($image['url'] ?? $image);
+}
+
+function get_current_template_name() {
+    $template_file = get_page_template();
+    if(!$template_file) return null;
+    $template_data = get_file_data( $template_file, array( 'Template Name' => 'Template Name' ) );
+    return $template_data['Template Name'];
+}
+
+function is_fscm() {
+    $template = get_current_template_name();
+    return $template && strtoupper(explode(' ', $template)[0]) === 'FSCM' || get_post_type() == 'fscm-product';
+}
+
+function is_eco() {
+    $template = get_current_template_name();
+    return $template && strtoupper(explode(' ', $template)[0]) === 'ECO' || get_post_type() == 'eco-product';
+}
