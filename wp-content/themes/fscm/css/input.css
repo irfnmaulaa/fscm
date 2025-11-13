@@ -80,3 +80,24 @@ a:not(.btn) {
 .accordion-checkbox:checked ~ label .accordion-icon {
     @apply rotate-0;
 }
+
+.simple-table {
+    @apply w-full;    
+}
+.simple-table td {
+    vertical-align: top;
+    @apply p-2;
+}
+.simple-table td:nth-child(1) {
+    width: 10px;
+}
+.simple-table td:nth-child(2) {
+    width: 30%;
+}
+.simple-table td:nth-child(3) {
+    white-space: pre-line;
+    width: 33%;
+}
+.simple-table td:nth-child(4) {
+    width: 33%;
+}
