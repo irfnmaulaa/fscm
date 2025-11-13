@@ -8,9 +8,10 @@
         </div>
         <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-3 lg:gap-5 group-hover:opacity-100 lg:opacity-0 bg-[#1E1E1E80] transition-all duration-300 ease-in-out">
           <div class="text-xl lg:text-[32px] font-semibold leading-7 lg:leading-10 text-white">FSCM</div>
-          <div class="text-base lg:text-[24px] text-white w-full max-w-[440px] px-4">
-            Hadir dengan berbagai lineup sparepart berkualitas dan standar setara Original / Genuine, FSCM siap membawamu melaju lebih jauh tanpa kompromi.
-          </div>
+          <div class="text-base lg:text-[24px] text-white w-full max-w-[460px] px-4 leading-[1.2] whitespace-pre-line">Hadir dengan berbagai lineup sparepart 
+            berkualitas dan standar setara Original / 
+            Genuine, FSCM siap membawamu 
+            melaju lebih jauh tanpa kompromi.</div>
           <a href="<?= site_url('/fscm') ?>" class="btn btn-black px-4 py-2 inline-flex gap-2 justify-center items-center text-white bg-[#2C2C2C]">  
             Temukan Sparepart FSCM
           </a>
@@ -23,9 +24,10 @@
         </div>
         <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-3 lg:gap-5 group-hover:opacity-100 lg:opacity-0 bg-[#E20000B2] transition-all duration-300 ease-in-out">
           <div class="text-xl lg:text-[32px] font-semibold leading-7 lg:leading-10 text-white">ECO</div>
-          <div class="text-base lg:text-[24px] text-white w-full max-w-[440px] px-4">
-            Hadir buat kamu yang cari suku cadang bagus dengan harga lebih ekonomis. Cocok buat perawatan harian tanpa bikin kantong jebol.
-          </div>
+          <div class="text-base lg:text-[24px] text-white w-full max-w-[460px] px-4 leading-[1.2] whitespace-pre-line">Hadir buat kamu yang cari suku cadang 
+            bagus dengan harga lebih ekonomis. 
+            Cocok buat perawatan harian tanpa 
+            bikin kantong jebol.</div>
           <a href="<?= site_url('/eco') ?>" class="btn btn-black px-4 py-2 inline-flex gap-2 justify-center items-center text-white bg-[#2C2C2C]">  
             Temukan Sparepart ECO
           </a>
