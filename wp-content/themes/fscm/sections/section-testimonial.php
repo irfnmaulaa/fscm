@@ -7,7 +7,7 @@
 <?php endif;?>
 
   <div class="container !max-w-[1280px] py-8 lg:py-20 flex flex-col justify-center items-center gap-5 lg:gap-12">
-    <div class="text-center text-[24px] font-semibold leading-10"><?= $section['title'] ?></div>
+    <div class="text-center text-[32px] font-semibold leading-10"><?= $section['title'] ?></div>
 
     <div class="grid lg:grid-cols-3 gap-3 lg:gap-8">
       <?php 
