@@ -104,8 +104,8 @@
             <nav class="flex text-center lg:text-left lg:flex-row lg:items-center font-semibold lg:justify-end lg:text-[20px] gap-2.5 lg:gap-7 lg:flex-row flex-col p-4 lg:p-0">
                 <a href="<?= get_home_url() . '/about' ?>" class="py-2 lg:py-0">About Us</a>
                 <a href="<?= get_home_url() . '/contact' ?>" class="py-2 lg:py-0">Contact Us</a>
-                <a href="<?= get_home_url() . '/fscm' ?>" class="btn btn-black py-1 px-3 font-normal lg:ms-3 lg:-me-3 tracking-[0.8px]">FSCM</a>
-                <a href="<?= get_home_url() . '/eco' ?>" class="btn bg-[#EC221F] text-white font-normal py-1 px-5 tracking-[0.8px]">ECO</a>
+                <a href="<?= get_home_url() . '/fscm' ?>" class="btn btn-black font-semibold py-1 px-3 font-normal lg:ms-3 lg:-me-3 tracking-[0.8px]">FSCM</a>
+                <a href="<?= get_home_url() . '/eco' ?>" class="btn bg-[#EC221F] font-semibold text-white font-normal py-1 px-5 tracking-[0.8px]">ECO</a>
             </nav>
             <?php endif; ?>
 
