@@ -37,14 +37,32 @@
 </head>
 <body class="font-body text-body overflow-x-hidden">
 
-<!-- <div id="loader" class="fixed w-[100vw] h-[100vh] mt-[80px] lg:mt-[120px] flex items-center justify-center bg-white z-[22] top-0 left-0">
-    <div class="loader mt-[-80px] lg:mt-[-120px]"></div>
-</div> -->
+<!-- Loader overlay -->
+<div id="loader" class="fixed inset-0 z-[99] mt-[98px] bg-white flex items-center justify-center">
+    <div class="text-center animate-pulse flex flex-col gap-4">  
+        <!-- WheelSpin animation -->
+        <div class="spinner relative w-8 h-8 mx-auto mt-4">
+            <div class="absolute inset-0 border-4 border-[#1E1E1E] border-t-transparent rounded-full animate-spin"></div>
+        </div>
+    </div>
+</div>  
 
 <div id="content">
 <?php endif; ?>
 
 <main>
+
+<!-- <script>
+    window.addEventListener('load', function() {
+        const loader = document.getElementById('loader');
+        if (loader) {
+            loader.style.opacity = '0';
+            loader.style.transition = 'opacity 0.5s ease';
+            setTimeout(() => loader.remove(), 500);
+        }
+    });
+</script> -->
+
 
 <header class="w-full h-[80px] lg:h-[99px] border-b border-[#D9D9D9] sticky top-0 bg-white z-50">
     <div class="container h-full flex items-center justify-between">

@@ -618,6 +618,10 @@ video {
   position: sticky;
 }
 
+.inset-0{
+  inset: 0px;
+}
+
 .bottom-0{
   bottom: 0px;
 }
@@ -686,6 +690,10 @@ video {
   z-index: 22;
 }
 
+.z-\[99\]{
+  z-index: 99;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -699,12 +707,12 @@ video {
   margin-bottom: 1rem;
 }
 
-.ms-3{
-  margin-inline-start: 0.75rem;
-}
-
 .mt-3{
   margin-top: 0.75rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
 }
 
 .mt-5{
@@ -717,6 +725,10 @@ video {
 
 .mt-\[80px\]{
   margin-top: 80px;
+}
+
+.mt-\[98px\]{
+  margin-top: 98px;
 }
 
 .block{
@@ -861,6 +873,10 @@ video {
 
 .w-64{
   width: 16rem;
+}
+
+.w-8{
+  width: 2rem;
 }
 
 .w-80{
@@ -1045,6 +1061,26 @@ video {
   animation: bounce 1s infinite;
 }
 
+@keyframes pulse{
+  50%{
+    opacity: .5;
+  }
+}
+
+.animate-pulse{
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes spin{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin{
+  animation: spin 1s linear infinite;
+}
+
 .\!cursor-pointer{
   cursor: pointer !important;
 }
@@ -1059,10 +1095,6 @@ video {
 
 .resize{
   resize: both;
-}
-
-.list-inside{
-  list-style-position: inside;
 }
 
 .list-decimal{
@@ -1246,12 +1278,21 @@ video {
   border-width: 2px;
 }
 
+.border-4{
+  border-width: 4px;
+}
+
 .border-b{
   border-bottom-width: 1px;
 }
 
 .border-t{
   border-top-width: 1px;
+}
+
+.border-\[\#1E1E1E\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(30 30 30 / var(--tw-border-opacity, 1));
 }
 
 .border-\[\#767676\]{
@@ -1291,6 +1332,10 @@ video {
 
 .border-b-transparent{
   border-bottom-color: transparent;
+}
+
+.border-t-transparent{
+  border-top-color: transparent;
 }
 
 .bg-\[\#1E1E1E80\]{
@@ -2007,6 +2052,38 @@ a:not(.btn):hover{
 
 .simple-table td:nth-child(4) {
   width: 33%;
+}
+
+#loader{
+  pointer-events: none;
+  opacity: 0;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+#loader.active{
+  pointer-events: auto;
+  opacity: 1;
+}
+
+#loader .spinner {
+  opacity: 0;
+}
+
+#loader.active .spinner {
+  animation: spinnerActive 0.5s forwards;
+  animation-delay: 0.8s;
+}
+
+@keyframes spinnerActive {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100;
+  }
 }
 
 .hover\:bg-gray-100:hover{
