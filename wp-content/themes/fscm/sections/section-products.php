@@ -14,9 +14,12 @@
         'orderby'    => 'updated',
         'order'      => 'DESC',
       ]);
-      foreach ($categories as $category) :
-        $thumbnail_id = get_term_meta($category->term_id, 'thumbnail_id', true);
-        $image_url = $thumbnail_id ? wp_get_attachment_url($thumbnail_id) : get_template_directory_uri() . '/img/category.webp';
+      foreach ($categories as $category) : 
+        $image_field = get_field('category_image', 'term_'.$category->term_id); 
+        $image_url = is_numeric($image_field) ? wp_get_attachment_url($image_field) : (is_array($image_field) ? $image_field['url'] : $image_field); 
+        if(!$image_url) {
+          $image_url = get_template_directory_uri() . '/img/category.webp';
+        }
       ?>
         <div class="inline-flex flex-col justify-start items-start border border-gray-300 relative" style="background: linear-gradient(148.69deg, #FFFFFF 39.95%, #D9D9D9 142.56%);">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute w-[16px] h-[16px] lg:w-[24px] lg:h-[24px] lg:top-2 lg:left-2 top-1 left-1 z-5">
