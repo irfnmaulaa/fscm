@@ -449,3 +449,11 @@ function is_eco() {
     $template = get_current_template_name();
     return $template && strtoupper(explode(' ', $template)[0]) === 'ECO' || get_post_type() == 'eco-product';
 }
+
+function generic_login_error(){
+
+  return 'Login failed. Check your username and password.';
+
+}
+
+add_filter( 'login_errors', 'generic_login_error' );
