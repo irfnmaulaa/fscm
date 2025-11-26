@@ -260,7 +260,7 @@ function get_products($limit = -1)
 //            array(
 //                'taxonomy' => 'product-category',
 //                'field' => 'slug',
-//                'terms' => $_GET['category']
+//                'terms' => esc_url_raw($_GET['category']) 
 //            )
 //        );
 //    }
@@ -321,7 +321,7 @@ function get_product_categories()
 
 function get_current_product_category()
 {
-    $category_slug = $_GET['category'];
+    $category_slug = esc_url_raw($_GET['category']);
     if (!$category_slug) return null;
 
     return get_term_by('slug', $category_slug, 'product-category');
