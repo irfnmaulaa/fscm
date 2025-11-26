@@ -15,8 +15,9 @@
       $products = get_posts([
         'post_type'      => 'fscm-product',
         'posts_per_page' => 8,
-        'orderby'        => 'updated',
-        'order'          => 'DESC',
+        'meta_key'       => 'product_order',
+        'orderby'        => 'meta_value_num',
+        'order'          => 'ASC',
       ]);
       foreach ($products as $product) : ?>
         <?php get_template_part('sections/section', 'product-item', ['product' => $product]) ?>

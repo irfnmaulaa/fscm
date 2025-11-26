@@ -11,8 +11,9 @@
       $categories = get_terms([
         'taxonomy'   => is_fscm() ? 'fscm-category' : 'eco-category',
         'hide_empty' => false,
-        'orderby'    => 'updated',
-        'order'      => 'DESC',
+        'meta_key'   => 'category_order',
+        'orderby'    => 'meta_value_num',
+        'order'      => 'ASC',
       ]);
       foreach ($categories as $category) : 
         $image_field = get_field('category_image', 'term_'.$category->term_id); 
