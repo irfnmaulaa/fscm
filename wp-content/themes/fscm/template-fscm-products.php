@@ -16,7 +16,7 @@
         'post_type'      => 'fscm-product',
         'posts_per_page' => 8,
         'meta_key'       => 'product_order',
-        'orderby'        => 'meta_value_num',
+        'orderby'        => ['meta_value_num' => 'ASC', 'modified' => 'DESC'],
         'order'          => 'ASC',
       ]);
       foreach ($products as $product) : ?>
