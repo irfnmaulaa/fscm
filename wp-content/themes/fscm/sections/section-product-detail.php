@@ -9,7 +9,9 @@ $content = get_field('product_content');
             <div class="overflow-y-auto aspect-[532/511] scrollbar">
               <div class="flex flex-col gap-2"> 
                 <?php foreach($product['images'] as $image): ?>
-                <img class="w-full h-full" src="<?= get_image_url($image) ?>" />
+                  <?php if(!empty($image['url'])): ?>
+                    <img class="w-full h-full" src="<?= get_image_url($image) ?>" />
+                  <?php endif; ?>
                 <?php endforeach; ?>
               </div>
             </div>
