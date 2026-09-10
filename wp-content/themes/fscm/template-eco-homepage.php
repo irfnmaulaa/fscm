@@ -17,4 +17,4 @@
 
 <?php get_template_part('sections/section', 'testimonial'); ?>
 
-<?php get_footer(); ?>
+<?php get_footer('eco'); ?>

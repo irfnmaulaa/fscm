@@ -79,6 +79,27 @@ add_action('init', function () {
         'labels' => 'Categories',
         'hierarchical' => true,
     ]); 
+
+    register_post_type('part', [
+        'labels' => [
+            'name' => 'Section',
+            'singular_name' => 'Section',
+            'add_new' => 'Add New Section',
+            'add_new_item' => 'Add New Section',
+            'new_item' => 'New Section',
+            'view_item' => 'View Section',
+            'view_items' => 'View Sections',
+            'all_items' => 'All Sections',
+        ],
+        'public' => true,
+        'supports' => ['title'],
+        'menu_position' => 20, 
+        'show_in_rest' => true,
+        'show_in_graphql' => true,
+        'show_in_nav_menus' => true,
+        'graphql_single_name' => 'Section', 
+        'graphql_plural_name' => 'Sections',
+    ]);
 });
 
 function theme_custom_logo_setup() {
@@ -186,10 +207,11 @@ function is_part_visible($section)
     $part = get_posts([
         'posts_per_page' => 1,
         'post_type' => 'part',
-        'name'           => $section . '-' . get_current_lang(),
+        'name'           => $section,
         'post_status'    => 'publish',
     ]);
-    if(count($part) > 0 && in_array('is_visible', get_field($section.'_visibility', $part[0]->ID))) {
+    // if(count($part) > 0 && in_array('is_visible', get_field($section.'_visibility', $part[0]->ID))) {
+    if(count($part) > 0) {
         return $part[0]->ID;
     }
     return false;
