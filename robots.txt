@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+sitemap: https://fscm.irfanmaulana.com/sitemap437.xml
+sitemap: https://fscm.irfanmaulana.com/sitemap269.xml
+sitemap: https://fscm.irfanmaulana.com/sitemap196.xml
+sitemap: https://fscm.irfanmaulana.com/sitemap113.xml
+sitemap: https://fscm.irfanmaulana.com/sitemap778.xml
